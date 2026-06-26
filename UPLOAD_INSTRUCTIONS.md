@@ -1,31 +1,42 @@
-# UPLOAD_INSTRUCTIONS｜v4反映手順
+# UPLOAD_INSTRUCTIONS｜sales_os clean v5
 
-このv4は、Drive IDが増える前提の6章テーブルへ更新済み。
+## 方針
 
-## 推奨：force pushで正本化
-既存GitHubにルート直下の散らばりがある場合、Webアップロードで上書きせず、以下でクリーン反映する。
+v5はCodex監査で指摘された軽微問題を修正した版。
+
+- `PUSH_CLEAN_WINDOWS.bat` は `tools/` 配下へ移動
+- `push_clean.sh` は `tools/` 配下へ移動
+- `PUSH_GUIDE.md` は `docs/` 配下へ移動
+- `tools/validate_sales_os.py` を強化
+- ルート直下は許可リストで厳密管理
+
+## GitHubへの反映
+
+既存リポジトリに旧アップロードが残っている場合は、v5を正本としてforce pushする。
 
 ```bash
-cd sales_os_clean_v4
+python tools/validate_sales_os.py
 git init
 git add -A
-git commit -m "営業OS正本 v4: Drive ID増加対応テーブルへ更新"
+git commit -m "営業OS正本 v5: audit-ready clean structure"
 git branch -M main
+git remote remove origin 2>/dev/null || true
 git remote add origin https://github.com/rancorder/sales_os.git
 git push -f origin main
 ```
 
-Windowsの場合は `PUSH_CLEAN_WINDOWS.bat` を使う。
+Windowsの場合：
 
-## 反映後の確認
-```txt
-clients/21_ast.md
-→ # 案件カルテ｜株式会社アスト
-→ 6.2に追加資料ID一覧テーブルあり
-
-DRIVE_REFERENCES.md
-→ 28件の代表Drive参照あり
-
-DRIVE_ID_EXPANSION_POLICY.md
-→ Drive ID追加ルールあり
+```bat
+tools\PUSH_CLEAN_WINDOWS.bat
 ```
+
+## 反映後チェック
+
+GitHub上で以下を確認する。
+
+- ルート直下に `01_*.md` などの案件カルテがない
+- `clients/21_ast.md` が株式会社アスト
+- `clients/20_food_surprise.md` が株式会社フードサプライズ
+- `DRIVE_REFERENCES.md` が28件
+- `tools/validate_sales_os.py` がOK

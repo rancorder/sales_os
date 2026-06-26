@@ -1,44 +1,36 @@
-# MANIFEST｜sales_os_clean_v4
+# MANIFEST｜sales_os clean v5
 
-- version: v4
-- generated_at: 2026-06-26
-- purpose: Drive IDが増える前提の6章テーブルへ更新
+## Root
 
-## Key files
+- `.gitattributes`
+- `.gitignore`
 - `README.md`
 - `INDEX.md`
+- `CLAUDE.md`
+- `MANIFEST.md`
+- `SECURITY.md`
+- `FILENAME_POLICY.md`
 - `DRIVE_REFERENCES.md`
 - `DRIVE_ID_EXPANSION_POLICY.md`
 - `CHECK_BEFORE_DELETE.md`
+- `CLEANUP_OLD_UPLOAD.md`
 - `UPLOAD_INSTRUCTIONS.md`
-- `tools/validate_sales_os.py`
+- `VALIDATION_REPORT.md`
+- `_research_protocol.md`
+- `_analysis_protocol.md`
+- `filename_mapping.md`
+- `clients/`
+- `docs/`
+- `patterns/`
+- `prompts/`
+- `outputs/`
+- `tools/`
 
-## Client cards
-- `clients/01_firstfan_ageru_care.md`
-- `clients/02_at_design.md`
-- `clients/03_jct.md`
-- `clients/05_kyoei_data_center.md`
-- `clients/06_hiwell.md`
-- `clients/07_aidec_management.md`
-- `clients/08_t2_laboratory.md`
-- `clients/09_laura_office.md`
-- `clients/10_aile.md`
-- `clients/11_sozo_gijutsu_sozo.md`
-- `clients/12_hito_film.md`
-- `clients/13_asahien.md`
-- `clients/14_aim_rose.md`
-- `clients/15_sanko.md`
-- `clients/16_kotonoha_marketing.md`
-- `clients/17_sm_tech.md`
-- `clients/18_wse.md`
-- `clients/19_reegle.md`
-- `clients/20_food_surprise.md`
-- `clients/21_ast.md`
-- `clients/22_kansha.md`
-- `clients/23_nihon_shin_kikaku.md`
-- `clients/24_ikko_industry.md`
-- `clients/25_hanayuki.md`
-- `clients/26_vista.md`
-- `clients/27_generate_one.md`
-- `clients/28_inet_technologies.md`
-- `clients/studio_tram/client_card.md`
+## 配置ルール
+
+- 案件カルテは `clients/`
+- 横断テンプレは `patterns/`
+- AI依頼文は `prompts/`
+- 運用ドキュメントは `docs/`
+- 検証・pushスクリプトは `tools/`
+- GitHubには原本ファイルを置かず、Drive ID / URL参照だけを置く

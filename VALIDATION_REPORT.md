@@ -1,31 +1,31 @@
-# VALIDATION_REPORT｜sales_os_clean_v4
+# VALIDATION_REPORT｜sales_os clean v5
 
-## 実行結果
+## 判定
 
-```txt
 OK: sales_os validation passed
-client cards checked: 28
-drive expansion table: v4
-```
 
-## v4検証内容
-- 全28件のclientカルテに代表Drive IDが入っている
-- 全28件のclientカルテに6.2「追加資料ID一覧」がある
-- 6.2表は以下の拡張カラムに統一
+## v5で追加された検証
 
-```md
-| 種別 | 資料名 | Drive参照種別 | Drive ID / URL | 用途 | 更新日 | 状態 |
-```
+- ルート直下の許可リスト完全一致チェック
+- `PUSH_CLEAN_WINDOWS.bat` / `push_clean.sh` は `tools/` 配下
+- `PUSH_GUIDE.md` は `docs/` 配下
+- `DRIVE_REFERENCES.md` と各client 6.1のDrive ID・file/folder種別の完全照合
+- Drive ID重複チェック
+- 28社以外の余剰clientカルテ検出
+- `### 6.1 代表Drive参照` 見出しの存在チェック
+- 危険拡張子スキャン
+- 日本語ファイル名・半角スペース・括弧付きファイル名チェック
+- 主要カルテの会社名一致チェック
 
-- 旧式の `| 資料 | fileId |` テーブルが残っていない
-- `DRIVE_REFERENCES.md` は代表Drive参照一覧として存在
-- `DRIVE_ID_EXPANSION_POLICY.md` が存在
-- ルート直下に案件カルテが散っていない
-- 日本語ファイル名がない
+## 監査で指摘された軽微問題への対応
 
-## 重要確認済み
-- `clients/18_wse.md` → WSE
-- `clients/19_reegle.md` → Reegle株式会社
-- `clients/20_food_surprise.md` → 株式会社フードサプライズ
-- `clients/21_ast.md` → 株式会社アスト
-- `clients/25_hanayuki.md` → 株式会社花雪
+| 指摘 | 対応 |
+|---|---|
+| `PUSH_CLEAN_WINDOWS.bat` がルート直下 | `tools/` へ移動 |
+| `push_clean.sh` がルート直下 | `tools/` へ移動 |
+| `PUSH_GUIDE.md` がルート直下 | `docs/` へ移動 |
+| validateの監査範囲不足 | v5で強化 |
+
+## GPTプロジェクト削除可否
+
+v5をGitHubへ反映し、`python tools/validate_sales_os.py` がOKなら削除可能。

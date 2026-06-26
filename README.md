@@ -62,3 +62,8 @@ Drive IDは増える前提で設計しています。
 - `DRIVE_ID_EXPANSION_POLICY.md`：Drive ID追加時のルール
 
 商談動画・文字起こし・SU定例・SCデータ・スライドなどのIDが増えた場合は、該当clientカルテの6.2へ追記してください。
+
+
+## v5監査対応
+
+Codex監査の指摘を受け、pushスクリプトを`tools/`へ、PUSHガイドを`docs/`へ移動し、`tools/validate_sales_os.py`の検証範囲を強化した。
