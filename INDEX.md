@@ -32,7 +32,7 @@
 | 24 | [有限会社一光工業](https://drive.google.com/file/d/1ukcJTDGpF2azdgaquHo-UAxANRjnVKQZ/view) | {未確認}（不動産会社向け・名古屋） | 架電 |
 | 25 | [株式会社花雪](https://drive.google.com/file/d/192hX_NXmiwZQlOvCIBu1d6QUTrqAjyfl/view) | 求人AI「リーパ」（大阪） | 架電（台本改修中）★分析済 |
 | 26 | [株式会社ビスタ](https://drive.google.com/file/d/1HHb1CXwp-Hzl6eqOQ5pCZ3hnnYNR-hcQ/view) | 無足場アンカー工法（愛媛） | 二次トスアップ |
-| 27 | [株式会社ジェネレートワン](https://drive.google.com/file/d/1I14IWTzVAKAkYfPN2f_0hYXkNNaNmETY/view) | 経済系YouTube「日本企業超会議」出演・資産化 | 商談（台本運用中） |
+| 27 | [株式会社ジェネレートワン](https://drive.google.com/drive/folders/11u1wBqEzpJkTg20YHRllynQF347MR-1o) | 経済系YouTube「日本企業超会議」出演・資産化 | 商談（台本運用中） |
 | 28 | [株式会社アイネットテクノロジーズ](https://drive.google.com/file/d/1kSRsr-Ttd5gqHqSxjzgtzhU30ae1TQQw/view) | {未確認}（IT系・取材待ち） | 立ち上げ前 |
 
 ## 専用フォルダ化済み
