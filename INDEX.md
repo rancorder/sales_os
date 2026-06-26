@@ -14,7 +14,7 @@
 | 6 | [株式会社ハイウェル](https://drive.google.com/file/d/1ZnGPCrhR1gCzaRG8BIoDWC9NekhzDY_U/view) | {未確認}（動画/分析のみ） | 枠のみ |
 | 7 | [エイデックマネジメント](https://drive.google.com/file/d/1nKqe_OXcItaQ2zRlGWXrd4BtoXNQwtDL/view) | SNS集客/DX/よろず支援（岩手） | 取材完了 |
 | 8 | [株式会社ティーツー・ラボラトリ](https://drive.google.com/file/d/1HQIjqlkqc77UiihNe5JEbnSKh6ciyiAu/view) | エッジAI/小型AIコンピュータ | 架電（展示会リード） |
-| 9 | [ラウラオフィス](https://drive.google.com/file/d/1nlD7ufeSaHbMEn6x6TLi_lFowWLjVgzR/view) | クリスタルシンギングボウル講座（BtoC） | 個別相談 |
+| 9 | [ラウラオフィス](https://drive.google.com/file/d/1nlD7ufeSaHbMEn6x6TLi_lFowWLjVgzR/view) | クリスタルシンギングボウル講座（BtoC） | 個別相談（5本確認・6/25最新分析済） |
 | 10 | [株式会社AILE](https://drive.google.com/file/d/1X5G6Uddy76F9wWFtyCWmzraxV1zmSRAF/view) | 建設DX/現場管理SaaS | 架電停滞 |
 | 11 | [想像技術創造株式会社](https://drive.google.com/file/d/1r-wc4p9g0nWU9ZvKfqVYlzRnu_Cbad-0/view) | 人工設計ペプチド（神戸） | 一次商談→二次へ |
 | 12 | [HITO Film株式会社](https://drive.google.com/file/d/1a2MqZEKD8Cx6BWizXSM5wjkXG42pErx_/view) | 映像活用支援（沖縄） | 架電（拒否率課題） |
