@@ -13,9 +13,9 @@
 | 自分の役割 | 営業支援（プレ商談台本・トーク・コックピット運用） |
 | 体制 | アイドマHD経由SU。営業メール generate-one_a@sales-unit.jp |
 | ステータス | 商談フェーズ（プレ商談台本が複数回改訂済み・運用中） |
-| Drive参照種別 | file |
-| Drive参照ID | `1I14IWTzVAKAkYfPN2f_0hYXkNNaNmETY` |
-| Drive参照URL | https://drive.google.com/file/d/1I14IWTzVAKAkYfPN2f_0hYXkNNaNmETY/view |
+| Drive参照種別 | folder |
+| Drive参照ID | `11u1wBqEzpJkTg20YHRllynQF347MR-1o` |
+| Drive参照URL | https://drive.google.com/drive/folders/11u1wBqEzpJkTg20YHRllynQF347MR-1o |
 
 ## 2. 商材の核 / USP
 - 「日本企業超会議」＝YouTube中心の新時代経済メディア。企業のリーダー層を"物語の主人公"としてブランディングし、『リアルリーダーズ』『この人と仕事』『エグゼクティブアンサーズ』等の番組枠で発信。
@@ -53,9 +53,9 @@
 | 項目 | 内容 |
 |---|---|
 | 参照スコープ | representative |
-| Drive参照種別 | file |
-| Drive参照ID | `1I14IWTzVAKAkYfPN2f_0hYXkNNaNmETY` |
-| Drive参照URL | https://drive.google.com/file/d/1I14IWTzVAKAkYfPN2f_0hYXkNNaNmETY/view |
+| Drive参照種別 | folder |
+| Drive参照ID | `11u1wBqEzpJkTg20YHRllynQF347MR-1o` |
+| Drive参照URL | https://drive.google.com/drive/folders/11u1wBqEzpJkTg20YHRllynQF347MR-1o |
 | 管理方針 | この案件の入口。追加資料IDは6.2に追記する。 |
 
 > 代表Drive参照は `INDEX.md` / `DRIVE_REFERENCES.md` を正として管理。Driveは原本資料置き場、GitHubは営業OS正本。
@@ -63,13 +63,13 @@
 ### 6.2 追加資料ID一覧
 | 種別 | 資料名 | Drive参照種別 | Drive ID / URL | 用途 | 更新日 | 状態 |
 |---|---|---|---|---|---|---|
-| 代表参照 | 案件入口・代表Drive参照 | file | `1I14IWTzVAKAkYfPN2f_0hYXkNNaNmETY` | 案件入口・原本資料確認 | 2026-06-26 | active |
+| 代表参照 | 案件入口・代表Drive参照 | folder | `11u1wBqEzpJkTg20YHRllynQF347MR-1o` | 案件入口・原本資料確認 | 2026-06-26 | active |
 | 台本 | プレ商談台本（画面共有用・改訂版） | file | `1xNzRoqXdmXYwT4Vkv6w2kXQjY33TkQif5TG4p0x0A38` | {未確認} | {未確認} | active |
 | 台本 | トークスクリプト | file | `1mGYPTs0Lw--t9hkXkwds5tMOHiz-8dinujL2UxHBsEw` | {未確認} | {未確認} | active |
 | 資料 | コックピット | file | `1e6M6i1Efyf6FSn9ZXl2Hja-8OR3J19o3qYrzJMjGFI0` | {未確認} | {未確認} | active |
 | 資料 | インタビュー項目(docx) | file | `10bw3uLKTNrA2TmteuV11FRcVvIDevVG6` | {未確認} | {未確認} | active |
 | SU定例 | SU定例資料フォーマット | file | `1H-uPtwhczIr5rCzUZNMzkZZRDQ-Dpxj09otOT050J9o` | {未確認} | {未確認} | active |
-| フォルダ | 架電ログフォルダ | folder | `1HwvnSIp8VFUNBICXhDLRR_gCPhugyK7W` | {未確認} | {未確認} | active |
+| フォルダ | 架電ログフォルダ | folder | `11u1wBqEzpJkTg20YHRllynQF347MR-1o` | 架電ログ・原本資料確認 | 2026-06-26 | active |
 
 ### 6.3 追加ルール
 - Drive IDが増えたら、まずこの6.2表に追記する。
