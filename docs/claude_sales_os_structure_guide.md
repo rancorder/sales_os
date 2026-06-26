@@ -1,5 +1,7 @@
 # Claude向け｜営業OS 構造理解ガイド
 
+詳細な営業OS構造は `docs/claude_sales_os_structure_guide.md` を参照する。
+
 ## 0. この資料の目的
 
 この資料は、Claude / Claude Code が `rancorder/sales_os` を正しく理解し、営業支援案件の分析・台本作成・報告書作成・GitHub更新を行うための運用ガイドである。
