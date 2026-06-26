@@ -1,0 +1,37 @@
+name: Validate sales_os
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run sales_os validator
+        run: python tools/validate_sales_os.py
+
+      - name: Check forbidden raw source extensions
+        shell: bash
+        run: |
+          set -euo pipefail
+          found=$(find . -path './.git' -prune -o -type f \( -iname '*.csv' -o -iname '*.mp4' -o -iname '*.vtt' -o -iname '*.xlsx' -o -iname '*.xls' -o -iname '*.docx' -o -iname '*.pdf' \) -print)
+          if [ -n "$found" ]; then
+            echo "Forbidden raw source files found:"
+            echo "$found"
+            exit 1
+          fi
+          echo "No forbidden raw source files found."
