@@ -23,7 +23,17 @@ ALLOWED_ROOT_FILES = {
     "_analysis_protocol.md",
     "filename_mapping.md",
 }
-ALLOWED_ROOT_DIRS = {"clients", "docs", "patterns", "prompts", "outputs", "tools", ".git"}
+
+ALLOWED_ROOT_DIRS = {
+    "clients",
+    "docs",
+    "patterns",
+    "prompts",
+    "outputs",
+    "tools",
+    ".github",
+    ".git",
+}
 
 EXPECTED = {
     "clients/01_firstfan_ageru_care.md": ("FirstFan", "file", "1F80wHcgB7cg7fbD2S_N1dQHl12CxzkQ9"),
@@ -68,8 +78,10 @@ WARN_EMAIL_RE = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
 errors = []
 warnings = []
 
+
 def rel(path: Path) -> str:
     return path.relative_to(ROOT).as_posix()
+
 
 # 1. Strict root allow list
 for item in ROOT.iterdir():
@@ -108,9 +120,6 @@ for p in ROOT.rglob("*"):
         errors.append(f"dangerous raw-source file extension: {rel(p)}")
 
 # 5. Expected client cards
-# Client card count.
-# Supporting client documents are allowed under clients/studio_tram/.
-# Only the expected card paths are counted as client cards.
 expected_paths = set(EXPECTED.keys())
 actual_existing_card_paths = {path for path in expected_paths if (ROOT / path).exists()}
 if actual_existing_card_paths != expected_paths:
