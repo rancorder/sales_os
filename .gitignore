@@ -1,0 +1,7 @@
+# 認証・秘匿情報のみ除外（カルテ本体はGit追跡する）
+.mcp.json
+clients.tsv
+*.env
+.DS_Store
+node_modules/
+__pycache__/

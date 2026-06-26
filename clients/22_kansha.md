@@ -1,0 +1,71 @@
+# 案件カルテ｜株式会社KANSHA
+
+## 0. AI起動プロンプト
+あなたは株式会社KANSHAの営業案件を伴走するパートナー。以下のカルテが正本。
+資料が要るときは6章のドライブIDを参照して読め。今日のタスクは「____」。
+
+## 1. 基本情報
+| 項目 | 内容 |
+|---|---|
+| クライアント名 | 株式会社KANSHA |
+| 提供商材 | 映像制作（テレビ/CM品質。企画〜撮影〜LIVE配信〜編集） |
+| 所在/代表 | 東京都渋谷区西原・代表 宮下勝年・2006/10設立 |
+| 自分の役割 | 営業支援（投影資料・業態別プレ商談台本・架電分析） |
+| 体制 | アイドマHD経由SU |
+| 契約 | 2025/12-2026/12・286時間 |
+| ステータス | 商談フェーズ（再訪中心、見積130万Bヨミ） |
+| Drive参照種別 | file |
+| Drive参照ID | `1S2yfMFEeNe5vkw03O8V5gLgLJAjs2q4O` |
+| Drive参照URL | https://drive.google.com/file/d/1S2yfMFEeNe5vkw03O8V5gLgLJAjs2q4O/view |
+
+## 2. 商材の核 / USP
+- 訴求：**「企業イベントを、営業で使える"映像資産"に変える」**。展示会・セミナー・記者発表を当日で終わらせず、営業・採用・広報・IRで使い回す。
+- 1回の撮影→フル尺/3分ダイジェスト/営業ショート/採用SNSへ多展開。回収設計（前）→撮影・LIVE配信（当日）→活用設計（後）の一貫プロデュース。
+- 強み：テレビクオリティ／マルチ配信ノウハウ／舞台監督チーム在籍／一貫プロデュース。著作権は完全譲渡。
+- 実績：IBM Quantum記者発表、AI Allianceシンポ（2か国語ハイブリッド）、パナソニック継続、官公庁・独法多数。
+
+## 3. 商談設計
+- 一次商談はヒアリング主体→二次トスアップ。業態別に分岐：(A)中堅・大企業／(B)広告代理店／(C)イベント会社。
+- 「バズる動画」でなく「目的に合った映像を丁寧に」。最初に"何のための動画か"を固めて手戻り・稟議コストを下げる。
+
+## 4. 進捗ログ
+| 期間 | 電話数 | アポ | 商談 | 備考 |
+|---|---|---|---|---|
+| 12/8〜2/23 | 45件 | 9件 | 11件 | 再アプローチ・年末挨拶でアポ獲得 |
+| 2/23〜4/11 | 26件 | 5件 | 6件 | 見積130万・Bヨミ2件。さとう=二次トスアップ |
+| 5月 | 稼働低調 | 0 | 0 | |
+
+## 5. 次の一手
+1. Bヨミ見積130万の商談を提案商談へ進め、二次商談で用途近い事例を提示
+2. 再訪先の信頼関係を活かし、採用/展示会/IRのどの映像資産が刺さるか具体化
+3. 業態別台本（中堅大企業/代理店/イベント会社）を商談者に徹底
+
+## 6. 資料原本（Drive参照・増設可能）
+
+### 6.1 代表Drive参照
+| 項目 | 内容 |
+|---|---|
+| 参照スコープ | representative |
+| Drive参照種別 | file |
+| Drive参照ID | `1S2yfMFEeNe5vkw03O8V5gLgLJAjs2q4O` |
+| Drive参照URL | https://drive.google.com/file/d/1S2yfMFEeNe5vkw03O8V5gLgLJAjs2q4O/view |
+| 管理方針 | この案件の入口。追加資料IDは6.2に追記する。 |
+
+> 代表Drive参照は `INDEX.md` / `DRIVE_REFERENCES.md` を正として管理。Driveは原本資料置き場、GitHubは営業OS正本。
+
+### 6.2 追加資料ID一覧
+| 種別 | 資料名 | Drive参照種別 | Drive ID / URL | 用途 | 更新日 | 状態 |
+|---|---|---|---|---|---|---|
+| 代表参照 | 案件入口・代表Drive参照 | file | `1S2yfMFEeNe5vkw03O8V5gLgLJAjs2q4O` | 案件入口・原本資料確認 | 2026-06-26 | active |
+| 商談資料 | 投影資料 | file | `1IrPLPvAuP5ZrWgS3tBFquuTlkjf8TBZOMa-p-4FTqi8` | {未確認} | {未確認} | active |
+| 台本 | プレ商談台本（業態別分岐） | file | `1tkIrhKPvqIbEGCpx-EDCMO6DNFRuorQT-81EPFD1x7s` | {未確認} | {未確認} | active |
+| 資料 | サービス特徴と強み.pdf | file | `1MMAfjDe0w_Nfp61REBNVctS2tLfMZw_E` | {未確認} | {未確認} | active |
+| SU定例 | SU定例資料 | file | `1AiW316phRmpcQ55_5za0nTv94brmfyR6Xi3Ui8CTjd8` | {未確認} | {未確認} | active |
+| 商談動画 | アイドマ商談動画フォルダ | folder | `1DPTgAT7UqQ4prFBDakZURr5dLOwwsc0M` | {未確認} | {未確認} | active |
+
+### 6.3 追加ルール
+- Drive IDが増えたら、まずこの6.2表に追記する。
+- `DRIVE_REFERENCES.md` は代表Drive参照の一覧として使い、個別資料IDを無制限に詰め込まない。
+- `Drive参照種別` は `file` / `folder` / `url` / `multiple` / `unverified` のいずれか。
+- `状態` は `active` / `archived` / `deprecated` / `unverified` のいずれか。
+- 顧客リスト・電話番号・個人情報入り原本はGitHubに置かず、Drive ID参照に留める。
