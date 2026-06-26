@@ -37,5 +37,5 @@
 | 24 | `clients/24_ikko_industry.md` | 有限会社一光工業 | file | `1ukcJTDGpF2azdgaquHo-UAxANRjnVKQZ` | https://drive.google.com/file/d/1ukcJTDGpF2azdgaquHo-UAxANRjnVKQZ/view |
 | 25 | `clients/25_hanayuki.md` | 株式会社花雪 | file | `192hX_NXmiwZQlOvCIBu1d6QUTrqAjyfl` | https://drive.google.com/file/d/192hX_NXmiwZQlOvCIBu1d6QUTrqAjyfl/view |
 | 26 | `clients/26_vista.md` | 株式会社ビスタ | file | `1HHb1CXwp-Hzl6eqOQ5pCZ3hnnYNR-hcQ` | https://drive.google.com/file/d/1HHb1CXwp-Hzl6eqOQ5pCZ3hnnYNR-hcQ/view |
-| 27 | `clients/27_generate_one.md` | 株式会社ジェネレートワン | file | `1I14IWTzVAKAkYfPN2f_0hYXkNNaNmETY` | https://drive.google.com/file/d/1I14IWTzVAKAkYfPN2f_0hYXkNNaNmETY/view |
+| 27 | `clients/27_generate_one.md` | 株式会社ジェネレートワン | folder | `11u1wBqEzpJkTg20YHRllynQF347MR-1o` | https://drive.google.com/drive/folders/11u1wBqEzpJkTg20YHRllynQF347MR-1o |
 | 28 | `clients/28_inet_technologies.md` | 株式会社アイネットテクノロジーズ | file | `1kSRsr-Ttd5gqHqSxjzgtzhU30ae1TQQw` | https://drive.google.com/file/d/1kSRsr-Ttd5gqHqSxjzgtzhU30ae1TQQw/view |
