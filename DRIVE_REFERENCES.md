@@ -13,7 +13,7 @@
 |---:|---|---|---|---|---|
 | 1 | `clients/01_firstfan_ageru_care.md` | FirstFan | file | `1F80wHcgB7cg7fbD2S_N1dQHl12CxzkQ9` | https://drive.google.com/file/d/1F80wHcgB7cg7fbD2S_N1dQHl12CxzkQ9/view |
 | 2 | `clients/02_at_design.md` | 株式会社ATデザイン | file | `1rgFiTnhxnH_6U3YWk0W8dOj1JzzT5pUd` | https://drive.google.com/file/d/1rgFiTnhxnH_6U3YWk0W8dOj1JzzT5pUd/view |
-| 3 | `clients/03_jct.md` | 有限会社ジェイシーティー | file | `1ZNiZLI0YSQRw0yH02TdmM8X498G6X6Za` | https://drive.google.com/file/d/1ZNiZLI0YSQRw0yH02TdmM8X498G6X6Za/view |
+| 3 | `clients/03_jct.md` | 有限会社ジェイシーティー | folder | `1yY1PL_ae-Oy7P3Vt5NfeQX7FR6oLkCcI` | https://drive.google.com/drive/folders/1yY1PL_ae-Oy7P3Vt5NfeQX7FR6oLkCcI |
 | 4 | `clients/studio_tram/client_card.md` | STUDIO TRAM | folder | `1JmnQokba1zp7RHBpilgwdBjuFI93bbaq` | https://drive.google.com/drive/folders/1JmnQokba1zp7RHBpilgwdBjuFI93bbaq |
 | 5 | `clients/05_kyoei_data_center.md` | 株式会社共栄データセンター | file | `1NKnTuwL7h05-C469idOSXxPkwsWQQBNz` | https://drive.google.com/file/d/1NKnTuwL7h05-C469idOSXxPkwsWQQBNz/view |
 | 6 | `clients/06_hiwell.md` | 株式会社ハイウェル | file | `1ZnGPCrhR1gCzaRG8BIoDWC9NekhzDY_U` | https://drive.google.com/file/d/1ZnGPCrhR1gCzaRG8BIoDWC9NekhzDY_U/view |
