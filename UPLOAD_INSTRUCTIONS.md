@@ -1,30 +1,31 @@
-# UPLOAD_INSTRUCTIONS｜GitHubへ正しく投入する手順
+# UPLOAD_INSTRUCTIONS｜v4反映手順
 
-## 推奨：コマンドラインで投入
+このv4は、Drive IDが増える前提の6章テーブルへ更新済み。
+
+## 推奨：force pushで正本化
+既存GitHubにルート直下の散らばりがある場合、Webアップロードで上書きせず、以下でクリーン反映する。
 
 ```bash
-cd sales_os_clean_v2
+cd sales_os_clean_v4
 git init
 git add -A
-git commit -m "営業OS正本をクリーン構造で再構築"
+git commit -m "営業OS正本 v4: Drive ID増加対応テーブルへ更新"
 git branch -M main
 git remote add origin https://github.com/rancorder/sales_os.git
 git push -f origin main
 ```
 
-既存の誤アップロードを一掃するため、今回は `git push -f` 推奨です。
-Webアップロードで上書きすると、ルート直下に不要ファイルが残る可能性があります。
+Windowsの場合は `PUSH_CLEAN_WINDOWS.bat` を使う。
 
-## Webアップロードしか使わない場合
+## 反映後の確認
+```txt
+clients/21_ast.md
+→ # 案件カルテ｜株式会社アスト
+→ 6.2に追加資料ID一覧テーブルあり
 
-1. 現在のGitHub上の不要ファイルを削除する
-2. ZIPを展開する
-3. `sales_os_clean_v2` フォルダの「中身」をアップロードする
-4. `clients/21_ast.md` を開いて、先頭が `# 案件カルテ｜株式会社アスト` であることを確認する
-5. ルート直下に `21_ast.md` など案件ファイルが出ていないことを確認する
+DRIVE_REFERENCES.md
+→ 28件の代表Drive参照あり
 
-## NG
-
-- `clients` フォルダ内のファイルを、個別にルート直下へアップロードしない
-- `patterns` フォルダ内のファイルを、個別にルート直下へアップロードしない
-- `download` や `download (1)` というファイルをアップロードしない
+DRIVE_ID_EXPANSION_POLICY.md
+→ Drive ID追加ルールあり
+```

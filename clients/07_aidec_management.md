@@ -13,7 +13,9 @@
 | 自分の役割 | 営業支援（取材・戦略・トーク・リスト） |
 | 体制 | アイドマHD経由SU |
 | ステータス | 取材完了→戦略・トーク整備フェーズ |
-| ドライブフォルダID | 1WLLjB6jFzh1OuBYnMLcVRIEOmYTkDeIs |
+| Drive参照種別 | file |
+| Drive参照ID | `1nKqe_OXcItaQ2zRlGWXrd4BtoXNQwtDL` |
+| Drive参照URL | https://drive.google.com/file/d/1nKqe_OXcItaQ2zRlGWXrd4BtoXNQwtDL/view |
 
 ## 2. 商材の核 / USP
 - **商材① SNS集客**：売上向上の伴走支援。初期11万・月1.5万。実績＝小売店で動画掲載のみ1か月売上1.5倍。地域に根づいたインスタ運用は県内に競合なし。
@@ -34,13 +36,34 @@
 2. 複数店舗の飲食業リスト作成
 3. 「店長経験×SNS×DXの一気通貫」を差別化メッセージとして前面化
 
-## 6. 資料原本（ドライブ参照）
-| 資料 | fileId |
+## 6. 資料原本（Drive参照・増設可能）
+
+### 6.1 代表Drive参照
+| 項目 | 内容 |
 |---|---|
-| 取材項目表（2段組）.docx | 1SEhWoZOleHpFLj4oI5PgfJBbyOicVgvq |
-| アポ調節カレンダー | 1Vjp2MKFZoAkGk0Ic859v5VeMtmwRrCuQ-pKQoU4gQKE |
-| 先方共有資料フォルダ | 1hgVM51VmcYiGylvgaGOkqLKQJtY9AXyJ |
-| 定例フォルダ | 1uyOxiFB5ryPV3qF5HruJO3OBJvojuirr |
-| 取材フォルダ | 1_QDQ8PyJLsnHkc9CJDnGWr0HL5wRPN48 |
-| トークフォルダ | 1IOpv8oehPq2RPli_EoXur9OZeostwbWP |
-| 戦略フォルダ | 18-3GwEy0D2LpnAYR4bvKmmupx5l50_g- |
+| 参照スコープ | representative |
+| Drive参照種別 | file |
+| Drive参照ID | `1nKqe_OXcItaQ2zRlGWXrd4BtoXNQwtDL` |
+| Drive参照URL | https://drive.google.com/file/d/1nKqe_OXcItaQ2zRlGWXrd4BtoXNQwtDL/view |
+| 管理方針 | この案件の入口。追加資料IDは6.2に追記する。 |
+
+> 代表Drive参照は `INDEX.md` / `DRIVE_REFERENCES.md` を正として管理。Driveは原本資料置き場、GitHubは営業OS正本。
+
+### 6.2 追加資料ID一覧
+| 種別 | 資料名 | Drive参照種別 | Drive ID / URL | 用途 | 更新日 | 状態 |
+|---|---|---|---|---|---|---|
+| 代表参照 | 案件入口・代表Drive参照 | file | `1nKqe_OXcItaQ2zRlGWXrd4BtoXNQwtDL` | 案件入口・原本資料確認 | 2026-06-26 | active |
+| 資料 | 取材項目表（2段組）.docx | file | `1SEhWoZOleHpFLj4oI5PgfJBbyOicVgvq` | {未確認} | {未確認} | active |
+| 資料 | アポ調節カレンダー | file | `1Vjp2MKFZoAkGk0Ic859v5VeMtmwRrCuQ-pKQoU4gQKE` | {未確認} | {未確認} | active |
+| 商談資料 | 先方共有資料フォルダ | folder | `1hgVM51VmcYiGylvgaGOkqLKQJtY9AXyJ` | {未確認} | {未確認} | active |
+| SU定例 | 定例フォルダ | folder | `1uyOxiFB5ryPV3qF5HruJO3OBJvojuirr` | {未確認} | {未確認} | active |
+| フォルダ | 取材フォルダ | folder | `1_QDQ8PyJLsnHkc9CJDnGWr0HL5wRPN48` | {未確認} | {未確認} | active |
+| 台本 | トークフォルダ | folder | `1IOpv8oehPq2RPli_EoXur9OZeostwbWP` | {未確認} | {未確認} | active |
+| フォルダ | 戦略フォルダ | folder | `18-3GwEy0D2LpnAYR4bvKmmupx5l50_g-` | {未確認} | {未確認} | active |
+
+### 6.3 追加ルール
+- Drive IDが増えたら、まずこの6.2表に追記する。
+- `DRIVE_REFERENCES.md` は代表Drive参照の一覧として使い、個別資料IDを無制限に詰め込まない。
+- `Drive参照種別` は `file` / `folder` / `url` / `multiple` / `unverified` のいずれか。
+- `状態` は `active` / `archived` / `deprecated` / `unverified` のいずれか。
+- 顧客リスト・電話番号・個人情報入り原本はGitHubに置かず、Drive ID参照に留める。

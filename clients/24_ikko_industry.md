@@ -13,7 +13,9 @@
 | 自分の役割 | 営業支援（SU定例・コックピット） |
 | 体制 | アイドマHD経由SU |
 | ステータス | 架電中（受付拒否率42.56%と高い） |
-| ドライブフォルダID | 1-rOQPY5U19s00izIhiTT212_wQ0fMxIv |
+| Drive参照種別 | file |
+| Drive参照ID | `1ukcJTDGpF2azdgaquHo-UAxANRjnVKQZ` |
+| Drive参照URL | https://drive.google.com/file/d/1ukcJTDGpF2azdgaquHo-UAxANRjnVKQZ/view |
 
 ## 2. 商材の核 / USP
 - {未確認}：商材詳細はドライブ資料に明示なし。次回取材で要確認。
@@ -35,9 +37,30 @@
 2. 受付拒否42.56%の高さを下げる冒頭トーク見直し
 3. 不動産会社6アポのフォロー→商談化
 
-## 6. 資料原本（ドライブ参照）
-| 資料 | fileId |
+## 6. 資料原本（Drive参照・増設可能）
+
+### 6.1 代表Drive参照
+| 項目 | 内容 |
 |---|---|
-| SU定例資料 | 1Zpc06tA6Leex8My0t_lDcBCUbHvAu7ENVlv6nrDTCM8 |
-| コックピット | 1HzEdK3zJDtts_1X_yv6Y8FQe9fDIWHy-qx9OuV1_6BA |
-| SUフォルダ | 1rT3P614WARu3N9pW6hm1Tz_n1pmOkJWY |
+| 参照スコープ | representative |
+| Drive参照種別 | file |
+| Drive参照ID | `1ukcJTDGpF2azdgaquHo-UAxANRjnVKQZ` |
+| Drive参照URL | https://drive.google.com/file/d/1ukcJTDGpF2azdgaquHo-UAxANRjnVKQZ/view |
+| 管理方針 | この案件の入口。追加資料IDは6.2に追記する。 |
+
+> 代表Drive参照は `INDEX.md` / `DRIVE_REFERENCES.md` を正として管理。Driveは原本資料置き場、GitHubは営業OS正本。
+
+### 6.2 追加資料ID一覧
+| 種別 | 資料名 | Drive参照種別 | Drive ID / URL | 用途 | 更新日 | 状態 |
+|---|---|---|---|---|---|---|
+| 代表参照 | 案件入口・代表Drive参照 | file | `1ukcJTDGpF2azdgaquHo-UAxANRjnVKQZ` | 案件入口・原本資料確認 | 2026-06-26 | active |
+| SU定例 | SU定例資料 | file | `1Zpc06tA6Leex8My0t_lDcBCUbHvAu7ENVlv6nrDTCM8` | {未確認} | {未確認} | active |
+| 資料 | コックピット | file | `1HzEdK3zJDtts_1X_yv6Y8FQe9fDIWHy-qx9OuV1_6BA` | {未確認} | {未確認} | active |
+| フォルダ | SUフォルダ | folder | `1rT3P614WARu3N9pW6hm1Tz_n1pmOkJWY` | {未確認} | {未確認} | active |
+
+### 6.3 追加ルール
+- Drive IDが増えたら、まずこの6.2表に追記する。
+- `DRIVE_REFERENCES.md` は代表Drive参照の一覧として使い、個別資料IDを無制限に詰め込まない。
+- `Drive参照種別` は `file` / `folder` / `url` / `multiple` / `unverified` のいずれか。
+- `状態` は `active` / `archived` / `deprecated` / `unverified` のいずれか。
+- 顧客リスト・電話番号・個人情報入り原本はGitHubに置かず、Drive ID参照に留める。

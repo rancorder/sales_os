@@ -14,7 +14,9 @@
 | 体制 | アイドマHD経由SU。商談担当が増部→岩部へ引継ぎ |
 | 契約 | 2026/1/14-2027/4/13・300時間 |
 | ステータス | 商談フェーズ（清本鐵工がAヨミ・図面送付待ち） |
-| ドライブフォルダID | 1f0MW_QyeJ3ugYoOxuhu5HTMOsxCRRbgH |
+| Drive参照種別 | file |
+| Drive参照ID | `15ez44jIAClPxXA3KjJ0_HlPLsqnyYpIC` |
+| Drive参照URL | https://drive.google.com/file/d/15ez44jIAClPxXA3KjJ0_HlPLsqnyYpIC/view |
 
 ## 2. 商材の核 / USP
 - 自動車車体の溶接治具・組立設備・装置の3D設計が主力。20年超のベテラン設計者による「提案型設計」。
@@ -65,17 +67,38 @@
 2. ユタカ工業向け「設計前工程の整理支援」資料、清本向け「設計支援活用パターン」資料を作成
 3. 次回商談で「社内設計者の時間を最も奪っている作業」を必ず確認し、隙間に入る提案へ
 
-## 6. 資料原本（ドライブ参照）
-| 資料 | fileId |
+## 6. 資料原本（Drive参照・増設可能）
+
+### 6.1 代表Drive参照
+| 項目 | 内容 |
 |---|---|
-| 会社案内①.pptx | 18m0Nx7LHQLFwpn47pAV1mt9V3_T3uvZY |
-| 会社案内①（スライド） | 1YHi-Hy9Y9-FsQKRQaSeBOr4kZ_Gb1wvKLuilBGXyAg8 |
-| SU定例資料（3社商談まとめ） | 1ShLZQ_fYGXtQV10ATQF6YB8JPhJVMsnEcHbMQgPMENs |
-| トークスクリプト | 1ZtPleQtN7-TQXwFGyZ30mYKJAtdsn7P0iQOABLNjQts |
-| リード管理表 | 1ZIu-wMqD2k2h0wEFfUMsPtzxOx90hICRcS0VKV-LEhw |
-| 商談動画フォルダ（文字起こし置き場） | 17LRk8C2QTaXSGowCtZmgopNUtnY0bM63 |
-| 商談資料フォルダ | 1W5Zh2cVGXS6IbX7nj3BY9QC8phWCkg4I |
-| リスト案フォルダ | 1hbP4bs4qle-WD-AwcKBd73yLCT_7BMDR |
-| SCデータフォルダ | 100T9jjFAeULbrB9NwWyw2vijtA_OS1S7 |
+| 参照スコープ | representative |
+| Drive参照種別 | file |
+| Drive参照ID | `15ez44jIAClPxXA3KjJ0_HlPLsqnyYpIC` |
+| Drive参照URL | https://drive.google.com/file/d/15ez44jIAClPxXA3KjJ0_HlPLsqnyYpIC/view |
+| 管理方針 | この案件の入口。追加資料IDは6.2に追記する。 |
+
+> 代表Drive参照は `INDEX.md` / `DRIVE_REFERENCES.md` を正として管理。Driveは原本資料置き場、GitHubは営業OS正本。
+
+### 6.2 追加資料ID一覧
+| 種別 | 資料名 | Drive参照種別 | Drive ID / URL | 用途 | 更新日 | 状態 |
+|---|---|---|---|---|---|---|
+| 代表参照 | 案件入口・代表Drive参照 | file | `15ez44jIAClPxXA3KjJ0_HlPLsqnyYpIC` | 案件入口・原本資料確認 | 2026-06-26 | active |
+| 商談資料 | 会社案内①.pptx | file | `18m0Nx7LHQLFwpn47pAV1mt9V3_T3uvZY` | {未確認} | {未確認} | active |
+| 商談資料 | 会社案内①（スライド） | file | `1YHi-Hy9Y9-FsQKRQaSeBOr4kZ_Gb1wvKLuilBGXyAg8` | {未確認} | {未確認} | active |
+| SU定例 | SU定例資料（3社商談まとめ） | file | `1ShLZQ_fYGXtQV10ATQF6YB8JPhJVMsnEcHbMQgPMENs` | {未確認} | {未確認} | active |
+| 台本 | トークスクリプト | file | `1ZtPleQtN7-TQXwFGyZ30mYKJAtdsn7P0iQOABLNjQts` | {未確認} | {未確認} | active |
+| 管理表 | リード管理表 | file | `1ZIu-wMqD2k2h0wEFfUMsPtzxOx90hICRcS0VKV-LEhw` | {未確認} | {未確認} | active |
+| 商談動画 | 商談動画フォルダ（文字起こし置き場） | folder | `17LRk8C2QTaXSGowCtZmgopNUtnY0bM63` | {未確認} | {未確認} | active |
+| 商談資料 | 商談資料フォルダ | folder | `1W5Zh2cVGXS6IbX7nj3BY9QC8phWCkg4I` | {未確認} | {未確認} | active |
+| フォルダ | リスト案フォルダ | folder | `1hbP4bs4qle-WD-AwcKBd73yLCT_7BMDR` | {未確認} | {未確認} | active |
+| SCデータ | SCデータフォルダ | folder | `100T9jjFAeULbrB9NwWyw2vijtA_OS1S7` | {未確認} | {未確認} | active |
+
+### 6.3 追加ルール
+- Drive IDが増えたら、まずこの6.2表に追記する。
+- `DRIVE_REFERENCES.md` は代表Drive参照の一覧として使い、個別資料IDを無制限に詰め込まない。
+- `Drive参照種別` は `file` / `folder` / `url` / `multiple` / `unverified` のいずれか。
+- `状態` は `active` / `archived` / `deprecated` / `unverified` のいずれか。
+- 顧客リスト・電話番号・個人情報入り原本はGitHubに置かず、Drive ID参照に留める。
 
 > このカルテの4章は `_analysis_protocol.md` 準拠の記入例（お手本）。

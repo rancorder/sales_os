@@ -13,7 +13,9 @@
 | 自分の役割 | 営業支援（自治体/幼稚園向けプレ商談台本・架電分析） |
 | 体制 | アイドマHD経由SU |
 | ステータス | 架電中（受付突破が課題、トーク改善中） |
-| ドライブフォルダID | 1gxR2kBs1WfDYKUrhmzLp8ZvZsxrS2gqh |
+| Drive参照種別 | file |
+| Drive参照ID | `1tHXnyxomP7hG9fZde5dnx0lcthFF-FVR` |
+| Drive参照URL | https://drive.google.com/file/d/1tHXnyxomP7hG9fZde5dnx0lcthFF-FVR/view |
 
 ## 2. 商材の核 / USP
 - 木製ユニット「ジラフ」：工具不要・差し込み式（L型/I型2パーツ）で職員だけで設営可。壁掛け保管で内装材に見せられる。
@@ -37,12 +39,33 @@
 2. 自治体/工務店/幼稚園でリスト別に入口トークを分岐
 3. 「弊社は〜」「提案」「サービス」を担当接続まで禁止する運用ルール固定
 
-## 6. 資料原本（ドライブ参照）
-| 資料 | fileId |
+## 6. 資料原本（Drive参照・増設可能）
+
+### 6.1 代表Drive参照
+| 項目 | 内容 |
 |---|---|
-| プレ商談台本（自治体/幼稚園向け） | 1dScA2o7qeXhle7ZUVljiBAOLISTNB-7aDBo91gY4c54 |
-| SU定例資料（架電構造分析） | 19SF043CiyATLUu3a2MPiDVr8VMBhmkTpU76fBXeI1mk |
-| コックピット | 18Z0cyxlfzATUMP2NOjY-mbqXDQ1qshvFnY0kbjUqTz8 |
-| 商談スライドフォルダ | 1-VHo91a11-v_Mem5qqUrx_cQN42Gr-Bm |
-| 先方ご提供フォルダ | 1-YrEcDGuoDHFr56jaaPA5nltA7od8HOO |
-| SCデータフォルダ | 1KhnhoY_-eifhYZhsQqoedVWc5otNCmlY |
+| 参照スコープ | representative |
+| Drive参照種別 | file |
+| Drive参照ID | `1tHXnyxomP7hG9fZde5dnx0lcthFF-FVR` |
+| Drive参照URL | https://drive.google.com/file/d/1tHXnyxomP7hG9fZde5dnx0lcthFF-FVR/view |
+| 管理方針 | この案件の入口。追加資料IDは6.2に追記する。 |
+
+> 代表Drive参照は `INDEX.md` / `DRIVE_REFERENCES.md` を正として管理。Driveは原本資料置き場、GitHubは営業OS正本。
+
+### 6.2 追加資料ID一覧
+| 種別 | 資料名 | Drive参照種別 | Drive ID / URL | 用途 | 更新日 | 状態 |
+|---|---|---|---|---|---|---|
+| 代表参照 | 案件入口・代表Drive参照 | file | `1tHXnyxomP7hG9fZde5dnx0lcthFF-FVR` | 案件入口・原本資料確認 | 2026-06-26 | active |
+| 台本 | プレ商談台本（自治体/幼稚園向け） | file | `1dScA2o7qeXhle7ZUVljiBAOLISTNB-7aDBo91gY4c54` | {未確認} | {未確認} | active |
+| SU定例 | SU定例資料（架電構造分析） | file | `19SF043CiyATLUu3a2MPiDVr8VMBhmkTpU76fBXeI1mk` | {未確認} | {未確認} | active |
+| 資料 | コックピット | file | `18Z0cyxlfzATUMP2NOjY-mbqXDQ1qshvFnY0kbjUqTz8` | {未確認} | {未確認} | active |
+| 商談資料 | 商談スライドフォルダ | folder | `1-VHo91a11-v_Mem5qqUrx_cQN42Gr-Bm` | {未確認} | {未確認} | active |
+| フォルダ | 先方ご提供フォルダ | folder | `1-YrEcDGuoDHFr56jaaPA5nltA7od8HOO` | {未確認} | {未確認} | active |
+| SCデータ | SCデータフォルダ | folder | `1KhnhoY_-eifhYZhsQqoedVWc5otNCmlY` | {未確認} | {未確認} | active |
+
+### 6.3 追加ルール
+- Drive IDが増えたら、まずこの6.2表に追記する。
+- `DRIVE_REFERENCES.md` は代表Drive参照の一覧として使い、個別資料IDを無制限に詰め込まない。
+- `Drive参照種別` は `file` / `folder` / `url` / `multiple` / `unverified` のいずれか。
+- `状態` は `active` / `archived` / `deprecated` / `unverified` のいずれか。
+- 顧客リスト・電話番号・個人情報入り原本はGitHubに置かず、Drive ID参照に留める。

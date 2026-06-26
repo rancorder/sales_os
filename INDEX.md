@@ -1,7 +1,7 @@
 # INDEX｜営業OS 案件カルテ一覧（全28社）
 
 > アイドマHD経由セールスユニット案件。社名クリックで各カルテに飛べる。
-> 運用：このチャットで「○○社のカルテ更新して」と言えば直接書き換え。節目でDrive→git pushしてバックアップ。
+> 運用：GitHubを正本として更新する。Driveは原本資料置き場。チャットで得た知見は `clients/`・`patterns/`・`docs/` に蒸留してcommitする。
 > 資料が増えた社は `clients/{社名}/` の専用フォルダに集約する（例：STUDIO_TRAM）。
 
 | # | クライアント | 商材 | ステータス |
@@ -44,6 +44,6 @@
 - 空フォルダ/枠のみ：#3 ジェイシーティー
 
 ## 運用メモ
-- 正本＝GitHubの `sales-os`。Driveは原本置き場、日常更新はAI経由でPull Request/commit化。
+- 正本＝GitHub `rancorder/sales_os`。Driveは原本資料置き場。
 - 立ち上げ＝`_research_protocol`／改善＝`_analysis_protocol`の2本立て。
 - 勝ちパターン＝二次商談トスアップ。

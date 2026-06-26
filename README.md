@@ -51,3 +51,14 @@ git push -u origin main
 - **カルテ更新**：Drive原本を読み、カルテには判断・要約・fileId参照のみ残す。
 - **禁止**：電話番号入りリスト、SCデータCSV、商談動画、契約書、顧客内部資料の直置き。
 - **推奨**：private repositoryで運用する。
+
+
+## v4 更新：Drive ID増加対応
+
+Drive IDは増える前提で設計しています。
+
+- `DRIVE_REFERENCES.md`：全社の代表Drive参照だけを管理
+- `clients/{client}.md` 6章：個別資料IDを増設可能な表で管理
+- `DRIVE_ID_EXPANSION_POLICY.md`：Drive ID追加時のルール
+
+商談動画・文字起こし・SU定例・SCデータ・スライドなどのIDが増えた場合は、該当clientカルテの6.2へ追記してください。

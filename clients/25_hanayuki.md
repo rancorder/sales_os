@@ -14,7 +14,9 @@
 | 体制 | アイドマHD経由SU。創業12年のマーケ・集客支援 |
 | 契約 | 2026/1/6-2027/4/5・375時間 |
 | ステータス | 架電中（本人拒否率が高く、台本を「当てにいく→外しても直せる」へ改修中） |
-| ドライブフォルダID | 1sUiwPkiH8rKp3uUWJezoPYyeXgujz_Dz |
+| Drive参照種別 | file |
+| Drive参照ID | `192hX_NXmiwZQlOvCIBu1d6QUTrqAjyfl` |
+| Drive参照URL | https://drive.google.com/file/d/192hX_NXmiwZQlOvCIBu1d6QUTrqAjyfl/view |
 
 ## 2. 商材の核 / USP
 - リーパ＝無料媒体（Indeed/Engage/求人ボックス）へAIが求人原稿を自動掲載。松下のライティングノウハウ（「魔法の求人票」）を学習。
@@ -49,18 +51,39 @@
 2. 「AI開発」という主語を捨て「dodaの応募率を上げる原稿作成ツール」等メリット直結語に
 3. 目安金額を冒頭で握り、本人拒否率を下げる
 
-## 6. 資料原本（ドライブ参照）
-| 資料 | fileId |
+## 6. 資料原本（Drive参照・増設可能）
+
+### 6.1 代表Drive参照
+| 項目 | 内容 |
 |---|---|
-| 投影資料_260609 | 1qg-biz1FOJQr8PXkMyW1h0s_Fsd8b8Jb-8t4V5j9-Yw |
-| 推奨架電台本_260607 | 19TbN53vsd57d2QuVm_66d0qAdhpiPlOQKG151S3KkCY |
-| 台本検証・修正方針レポート | 184JcExFDrbwuUuKL9O1FASpKOwRns1jE7Fcpwh44OgE |
-| プレ商談台本（改定版） | 1-9fzdxipE6lT1pr4E4NiDmlFHnFyzk6eA28F5MduU14 |
-| SU定例（本人拒否分析） | 1dgwyDS3VxVDZXe-gYLe4THJGtA7BpKFC5_W2WCL551I |
-| 営業資料.pptx | 1e7P_OxGjczZyaBor87bN3TQDAvwC50Es |
-| 営業資料.pdf | 1k3w7LMjBpkRsJNkVGrMfT1T4VBMSBQkx |
-| 商談動画フォルダ（文字起こし置き場） | 1PRe3lAIjQvqt0fVi7J8owXKIihohalgr |
-| 商談事前リサーチフォルダ | 1SqQ5PNSWAVOISGLmpagVsSf9uFjNxj0E |
-| 商談資料フォルダ | 1BWs_wfPZ0HTT7Ey4LXi9jBPCWYvQnL3o |
+| 参照スコープ | representative |
+| Drive参照種別 | file |
+| Drive参照ID | `192hX_NXmiwZQlOvCIBu1d6QUTrqAjyfl` |
+| Drive参照URL | https://drive.google.com/file/d/192hX_NXmiwZQlOvCIBu1d6QUTrqAjyfl/view |
+| 管理方針 | この案件の入口。追加資料IDは6.2に追記する。 |
+
+> 代表Drive参照は `INDEX.md` / `DRIVE_REFERENCES.md` を正として管理。Driveは原本資料置き場、GitHubは営業OS正本。
+
+### 6.2 追加資料ID一覧
+| 種別 | 資料名 | Drive参照種別 | Drive ID / URL | 用途 | 更新日 | 状態 |
+|---|---|---|---|---|---|---|
+| 代表参照 | 案件入口・代表Drive参照 | file | `192hX_NXmiwZQlOvCIBu1d6QUTrqAjyfl` | 案件入口・原本資料確認 | 2026-06-26 | active |
+| 商談資料 | 投影資料_260609 | file | `1qg-biz1FOJQr8PXkMyW1h0s_Fsd8b8Jb-8t4V5j9-Yw` | {未確認} | {未確認} | active |
+| 台本 | 推奨架電台本_260607 | file | `19TbN53vsd57d2QuVm_66d0qAdhpiPlOQKG151S3KkCY` | {未確認} | {未確認} | active |
+| 台本 | 台本検証・修正方針レポート | file | `184JcExFDrbwuUuKL9O1FASpKOwRns1jE7Fcpwh44OgE` | {未確認} | {未確認} | active |
+| 台本 | プレ商談台本（改定版） | file | `1-9fzdxipE6lT1pr4E4NiDmlFHnFyzk6eA28F5MduU14` | {未確認} | {未確認} | active |
+| SU定例 | SU定例（本人拒否分析） | file | `1dgwyDS3VxVDZXe-gYLe4THJGtA7BpKFC5_W2WCL551I` | {未確認} | {未確認} | active |
+| 商談資料 | 営業資料.pptx | file | `1e7P_OxGjczZyaBor87bN3TQDAvwC50Es` | {未確認} | {未確認} | active |
+| 商談資料 | 営業資料.pdf | file | `1k3w7LMjBpkRsJNkVGrMfT1T4VBMSBQkx` | {未確認} | {未確認} | active |
+| 商談動画 | 商談動画フォルダ（文字起こし置き場） | folder | `1PRe3lAIjQvqt0fVi7J8owXKIihohalgr` | {未確認} | {未確認} | active |
+| フォルダ | 商談事前リサーチフォルダ | folder | `1SqQ5PNSWAVOISGLmpagVsSf9uFjNxj0E` | {未確認} | {未確認} | active |
+| 商談資料 | 商談資料フォルダ | folder | `1BWs_wfPZ0HTT7Ey4LXi9jBPCWYvQnL3o` | {未確認} | {未確認} | active |
+
+### 6.3 追加ルール
+- Drive IDが増えたら、まずこの6.2表に追記する。
+- `DRIVE_REFERENCES.md` は代表Drive参照の一覧として使い、個別資料IDを無制限に詰め込まない。
+- `Drive参照種別` は `file` / `folder` / `url` / `multiple` / `unverified` のいずれか。
+- `状態` は `active` / `archived` / `deprecated` / `unverified` のいずれか。
+- 顧客リスト・電話番号・個人情報入り原本はGitHubに置かず、Drive ID参照に留める。
 
 > このカルテの4章は `_analysis_protocol.md` 準拠の記入例（お手本）。

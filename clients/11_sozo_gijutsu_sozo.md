@@ -13,7 +13,9 @@
 | 自分の役割 | 営業支援（一次商談スライド・想定QA・架電/商談分析） |
 | 体制 | アイドマHD経由SU |
 | ステータス | 一次商談アポ取得→商談フェーズ移行中 |
-| ドライブフォルダID | 1OUCXVMho_gfNwh6InvivEgF7zwSjBDCb |
+| Drive参照種別 | file |
+| Drive参照ID | `1r-wc4p9g0nWU9ZvKfqVYlzRnu_Cbad-0` |
+| Drive参照URL | https://drive.google.com/file/d/1r-wc4p9g0nWU9ZvKfqVYlzRnu_Cbad-0/view |
 
 ## 2. 商材の核 / USP
 - 一言：天然素材を「探す」のでなく、欲しい機能から「逆算して設計」する人工設計ペプチド。
@@ -37,14 +39,35 @@
 2. 商談ごとに「飯田に渡す材料（研究テーマ・課題）」を構造化して蓄積
 3. QA集の"かわしテンプレ"を商談者に徹底
 
-## 6. 資料原本（ドライブ参照）
-| 資料 | fileId |
+## 6. 資料原本（Drive参照・増設可能）
+
+### 6.1 代表Drive参照
+| 項目 | 内容 |
 |---|---|
-| 一次商談スライド ver2 | 1Dtk3fdWgoh_WmYnV8_nyUDqFsu-B8n1wlDk08l-4jHU |
-| 一次商談スライド ver1 | 1EKlrJ1wEWvUqpzRXh56dq8qadIYW_ryVTa-IveZ4nBY |
-| 想定QA集 | 1ay_ZT2emCRQROI0S424DfC6N8DFUOjTX7xLiu2JKr3Q |
-| 商談教育資料 | 1rn6X2eV6umFKFFCUaFuZ2A5leP8xIBWmIKqEYbiFPZI |
-| インフォグラフィック.png | 1pMyJXgFQ-sqREjoE3nYln7ymtOHEo_Ni |
-| SU定例資料 | 1wY4YwsdPvnXP3HjNpXahhVAm9jvmgErVfROZ3Kg0C5k |
-| 商談分析フォルダ | 1RfMw0f9lHEyKm4lr1RNv9sMsGZXquEg1 |
-| 分析フォルダ | 1liHlsH1B7-fdT2MHl3HjI0ztS6j25ABv |
+| 参照スコープ | representative |
+| Drive参照種別 | file |
+| Drive参照ID | `1r-wc4p9g0nWU9ZvKfqVYlzRnu_Cbad-0` |
+| Drive参照URL | https://drive.google.com/file/d/1r-wc4p9g0nWU9ZvKfqVYlzRnu_Cbad-0/view |
+| 管理方針 | この案件の入口。追加資料IDは6.2に追記する。 |
+
+> 代表Drive参照は `INDEX.md` / `DRIVE_REFERENCES.md` を正として管理。Driveは原本資料置き場、GitHubは営業OS正本。
+
+### 6.2 追加資料ID一覧
+| 種別 | 資料名 | Drive参照種別 | Drive ID / URL | 用途 | 更新日 | 状態 |
+|---|---|---|---|---|---|---|
+| 代表参照 | 案件入口・代表Drive参照 | file | `1r-wc4p9g0nWU9ZvKfqVYlzRnu_Cbad-0` | 案件入口・原本資料確認 | 2026-06-26 | active |
+| 商談資料 | 一次商談スライド ver2 | file | `1Dtk3fdWgoh_WmYnV8_nyUDqFsu-B8n1wlDk08l-4jHU` | {未確認} | {未確認} | active |
+| 商談資料 | 一次商談スライド ver1 | file | `1EKlrJ1wEWvUqpzRXh56dq8qadIYW_ryVTa-IveZ4nBY` | {未確認} | {未確認} | active |
+| 資料 | 想定QA集 | file | `1ay_ZT2emCRQROI0S424DfC6N8DFUOjTX7xLiu2JKr3Q` | {未確認} | {未確認} | active |
+| 商談資料 | 商談教育資料 | file | `1rn6X2eV6umFKFFCUaFuZ2A5leP8xIBWmIKqEYbiFPZI` | {未確認} | {未確認} | active |
+| 資料 | インフォグラフィック.png | file | `1pMyJXgFQ-sqREjoE3nYln7ymtOHEo_Ni` | {未確認} | {未確認} | active |
+| SU定例 | SU定例資料 | file | `1wY4YwsdPvnXP3HjNpXahhVAm9jvmgErVfROZ3Kg0C5k` | {未確認} | {未確認} | active |
+| フォルダ | 商談分析フォルダ | folder | `1RfMw0f9lHEyKm4lr1RNv9sMsGZXquEg1` | {未確認} | {未確認} | active |
+| フォルダ | 分析フォルダ | folder | `1liHlsH1B7-fdT2MHl3HjI0ztS6j25ABv` | {未確認} | {未確認} | active |
+
+### 6.3 追加ルール
+- Drive IDが増えたら、まずこの6.2表に追記する。
+- `DRIVE_REFERENCES.md` は代表Drive参照の一覧として使い、個別資料IDを無制限に詰め込まない。
+- `Drive参照種別` は `file` / `folder` / `url` / `multiple` / `unverified` のいずれか。
+- `状態` は `active` / `archived` / `deprecated` / `unverified` のいずれか。
+- 顧客リスト・電話番号・個人情報入り原本はGitHubに置かず、Drive ID参照に留める。

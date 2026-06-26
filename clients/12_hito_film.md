@@ -13,7 +13,9 @@
 | 自分の役割 | 営業支援（投影資料・商談台本・架電分析） |
 | 体制 | アイドマHD経由SU |
 | ステータス | 架電中（アポ転換に苦戦） |
-| ドライブフォルダID | 1qNFOTPuuWzam8S_Qiv9iD-sDdXwpdjWb |
+| Drive参照種別 | file |
+| Drive参照ID | `1a2MqZEKD8Cx6BWizXSM5wjkXG42pErx_` |
+| Drive参照URL | https://drive.google.com/file/d/1a2MqZEKD8Cx6BWizXSM5wjkXG42pErx_/view |
 
 ## 2. 商材の核 / USP
 - コンセプト：**「会えば伝わる魅力を、会う前から伝える」**。選ぶ前の不安と、選んだ後の不安を下げる映像導線。
@@ -35,11 +37,32 @@
 2. 「会う前/選んだ後の不安」を電話冒頭フックに前出しして反応を取る
 3. 採用・集客・広報のどの切り口が最も刺さるかをリスト別にABテスト
 
-## 6. 資料原本（ドライブ参照）
-| 資料 | fileId |
+## 6. 資料原本（Drive参照・増設可能）
+
+### 6.1 代表Drive参照
+| 項目 | 内容 |
 |---|---|
-| 投影資料（ゴシック統一） | 1Ii2H3ZlBPPMZrDDh0RBy47Ch8xaqfrFpnHRzbKEgibY |
-| 商談台本 | 11E_BVUU-yqxbW2QSgLN2dV5kYBsjcnpS21G4nSCeXig |
-| トークスクリプト | 1a1lc69oHRgVW6Ohuk7lD2iWGO4fjD0mRgeezanngpCo |
-| SU定例資料 | 1LBUFUIlacx-K7yure7ZpjMyQIOLwJRdHACKBzGfoeL0 |
-| 取材MTG | 10Cf9k3TbYwLtAH-p4ollvVE0820z-JOtBdZIDSRoDUA |
+| 参照スコープ | representative |
+| Drive参照種別 | file |
+| Drive参照ID | `1a2MqZEKD8Cx6BWizXSM5wjkXG42pErx_` |
+| Drive参照URL | https://drive.google.com/file/d/1a2MqZEKD8Cx6BWizXSM5wjkXG42pErx_/view |
+| 管理方針 | この案件の入口。追加資料IDは6.2に追記する。 |
+
+> 代表Drive参照は `INDEX.md` / `DRIVE_REFERENCES.md` を正として管理。Driveは原本資料置き場、GitHubは営業OS正本。
+
+### 6.2 追加資料ID一覧
+| 種別 | 資料名 | Drive参照種別 | Drive ID / URL | 用途 | 更新日 | 状態 |
+|---|---|---|---|---|---|---|
+| 代表参照 | 案件入口・代表Drive参照 | file | `1a2MqZEKD8Cx6BWizXSM5wjkXG42pErx_` | 案件入口・原本資料確認 | 2026-06-26 | active |
+| 商談資料 | 投影資料（ゴシック統一） | file | `1Ii2H3ZlBPPMZrDDh0RBy47Ch8xaqfrFpnHRzbKEgibY` | {未確認} | {未確認} | active |
+| 台本 | 商談台本 | file | `11E_BVUU-yqxbW2QSgLN2dV5kYBsjcnpS21G4nSCeXig` | {未確認} | {未確認} | active |
+| 台本 | トークスクリプト | file | `1a1lc69oHRgVW6Ohuk7lD2iWGO4fjD0mRgeezanngpCo` | {未確認} | {未確認} | active |
+| SU定例 | SU定例資料 | file | `1LBUFUIlacx-K7yure7ZpjMyQIOLwJRdHACKBzGfoeL0` | {未確認} | {未確認} | active |
+| 資料 | 取材MTG | file | `10Cf9k3TbYwLtAH-p4ollvVE0820z-JOtBdZIDSRoDUA` | {未確認} | {未確認} | active |
+
+### 6.3 追加ルール
+- Drive IDが増えたら、まずこの6.2表に追記する。
+- `DRIVE_REFERENCES.md` は代表Drive参照の一覧として使い、個別資料IDを無制限に詰め込まない。
+- `Drive参照種別` は `file` / `folder` / `url` / `multiple` / `unverified` のいずれか。
+- `状態` は `active` / `archived` / `deprecated` / `unverified` のいずれか。
+- 顧客リスト・電話番号・個人情報入り原本はGitHubに置かず、Drive ID参照に留める。

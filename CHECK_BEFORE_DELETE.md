@@ -1,55 +1,43 @@
 # CHECK_BEFORE_DELETE｜GPTプロジェクト削除前チェック
 
-GPTプロジェクトを消す前に、GitHub上で以下を確認する。
+GPTプロジェクトを削除する前に、GitHub上で以下を確認する。
 
-## 1. ルート直下の構造
-
-ルート直下に案件カルテが散っていないこと。
-
-OK:
-
+## 1. 構造
 ```txt
-README.md
-INDEX.md
-CLAUDE.md
-clients/
-docs/
-patterns/
-prompts/
-outputs/
-tools/
+sales_os/
+├── README.md
+├── INDEX.md
+├── DRIVE_REFERENCES.md
+├── DRIVE_ID_EXPANSION_POLICY.md
+├── clients/
+├── docs/
+├── patterns/
+├── prompts/
+└── tools/
 ```
 
-NG:
+ルート直下に `21_ast.md` や `call_kpi_analysis_format.md` が散っていたらNG。
 
-```txt
-21_ast.md
-20_food_surprise.md
-08_t2_laboratory.md
-call_kpi_analysis_format.md
-architecture.md
+## 2. 代表Drive参照
+- `DRIVE_REFERENCES.md` に28件の代表Drive参照がある
+- `clients/21_ast.md` の6.1に `15ez44jIAClPxXA3KjJ0_HlPLsqnyYpIC` がある
+- `clients/20_food_surprise.md` の6.1に `1Zcq0PR1ATTCCoJ8bfn1T4bMc8-MtfIlB` がある
+
+## 3. 追加資料IDテーブル
+各clientカルテの6章に次の表がある。
+
+```md
+| 種別 | 資料名 | Drive参照種別 | Drive ID / URL | 用途 | 更新日 | 状態 |
 ```
 
-## 2. 案件ファイルの対応確認
+## 4. 本文整合
+- `clients/21_ast.md` → `# 案件カルテ｜株式会社アスト`
+- `clients/20_food_surprise.md` → `# 案件カルテ｜株式会社フードサプライズ`
+- `clients/18_wse.md` → `# 案件カルテ｜ワールドシステムエンジニアリング有限会社（WSE）`
 
-GitHubで以下を開いて、先頭行が一致すること。
+## 5. 検証コマンド
+```bash
+python tools/validate_sales_os.py
+```
 
-| パス | 先頭行 |
-|---|---|
-| clients/18_wse.md | # 案件カルテ｜ワールドシステムエンジニアリング有限会社（WSE） |
-| clients/19_reegle.md | # 案件カルテ｜Reegle株式会社 |
-| clients/20_food_surprise.md | # 案件カルテ｜株式会社フードサプライズ |
-| clients/21_ast.md | # 案件カルテ｜株式会社アスト |
-| clients/25_hanayuki.md | # 案件カルテ｜株式会社花雪 |
-
-## 3. Drive原本
-
-Google Drive側に以下が残っていること。
-
-- 商談動画
-- 文字起こし原本
-- SU定例資料
-- SCデータ
-- 顧客提供資料
-
-この3点がOKなら、GPTプロジェクトは削除してよい。
+`OK: sales_os validation passed` が出れば、GPTプロジェクト削除可。

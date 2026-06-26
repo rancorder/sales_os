@@ -16,7 +16,9 @@
 | 体制 | アイドマHD経由SU。取材担当=片山氏。代表は職人型で営業のプロでない |
 | マーケ手段 | **架電のみ** |
 | ステータス | **立ち上げ完了・7月稼働準備フェーズ**（SP架電は停止中→7月再開） |
-| ドライブフォルダID | 1DceE0zvxJDCTcCvKP-k_WoiwP2_SYLUm（アイドマ側SUフォルダ） |
+| Drive参照種別 | folder |
+| Drive参照ID | `1JmnQokba1zp7RHBpilgwdBjuFI93bbaq` |
+| Drive参照URL | https://drive.google.com/drive/folders/1JmnQokba1zp7RHBpilgwdBjuFI93bbaq |
 | 公式サイト | studiotram.com（刷新済み・2026表記） |
 
 ## 2. 商材の核 / USP（戦略v2準拠）
@@ -45,25 +47,37 @@
 3. 制作受注の布石：用途特化LP 2種（採用動画／展示会動画）の構成案
 4. 稼働後はSU定例の数値・入口別アポ率・本人拒否分類で毎週台本更新（分析プロトコル）
 
-## 6. 資料原本
-### 母艦内（clients/STUDIO_TRAM/）
-| 資料 | 種別 |
-|---|---|
-| 運用設計_STUDIO_TRAM.md | 案件の回し方 |
-| 営業戦略_STUDIO_TRAM_チーム共有_v2.md | 戦略の正本 |
-| 営業戦略_STUDIO_TRAM_v2（Word用） | チーム配布用 |
-| 検証_STUDIO_TRAM_GPT-FB対応.md | GPT-FBの採否判断記録 |
-| 商談プレゼン原稿_STUDIO_TRAM | スライド原稿（10枚） |
+## 6. 資料原本（Drive参照・増設可能）
 
-### 成果物（外部）
-| 資料 | 場所 |
+### 6.1 代表Drive参照
+| 項目 | 内容 |
 |---|---|
-| 商談スライド（16:9 HTML・presenter同期・選択肢インタラクション） | github.com/rancorder/STUDIOTRAM |
+| 参照スコープ | representative |
+| Drive参照種別 | folder |
+| Drive参照ID | `1JmnQokba1zp7RHBpilgwdBjuFI93bbaq` |
+| Drive参照URL | https://drive.google.com/drive/folders/1JmnQokba1zp7RHBpilgwdBjuFI93bbaq |
+| 管理方針 | この案件の入口。追加資料IDは6.2に追記する。 |
 
-### アイドマ側ドライブ（SUフォルダ 1DceE0zvxJDCTcCvKP-k_WoiwP2_SYLUm）
-| 資料 | fileId |
-|---|---|
-| 提案商談 文字起こし(vtt) | 1nd1U6x6FCo6QDNWwbDGzPjJRQMxGdmg3 |
-| 本体商談 文字起こし(vtt) | 1maNv3RtsSukYafA_edfBHbIPlVDZinnl |
-| 社内チャット状況(Doc) | 1dQsxAX4QSblfmgDEUaq9IQLUDIGPkyA8su_eqsFZCV0 |
-| 商談動画(webm)・OS台本・SCデータ | 各サブフォルダ |
+> 代表Drive参照は `INDEX.md` / `DRIVE_REFERENCES.md` を正として管理。Driveは原本資料置き場、GitHubは営業OS正本。
+
+### 6.2 追加資料ID一覧
+| 種別 | 資料名 | Drive参照種別 | Drive ID / URL | 用途 | 更新日 | 状態 |
+|---|---|---|---|---|---|---|
+| 代表参照 | 案件入口・代表Drive参照 | folder | `1JmnQokba1zp7RHBpilgwdBjuFI93bbaq` | 案件入口・原本資料確認 | 2026-06-26 | active |
+| 資料 | 運用設計_STUDIO_TRAM.md | unverified | 案件の回し方 | {未確認} | {未確認} | unverified |
+| 資料 | 営業戦略_STUDIO_TRAM_チーム共有_v2.md | unverified | 戦略の正本 | {未確認} | {未確認} | unverified |
+| 資料 | 営業戦略_STUDIO_TRAM_v2（Word用） | unverified | チーム配布用 | {未確認} | {未確認} | unverified |
+| 資料 | 検証_STUDIO_TRAM_GPT-FB対応.md | unverified | GPT-FBの採否判断記録 | {未確認} | {未確認} | unverified |
+| 資料 | 商談プレゼン原稿_STUDIO_TRAM | unverified | スライド原稿（10枚） | {未確認} | {未確認} | unverified |
+| 商談資料 | 商談スライド（16:9 HTML・presenter同期・選択肢インタラクション） | url | github.com/rancorder/STUDIOTRAM | {未確認} | {未確認} | active |
+| 文字起こし | 提案商談 文字起こし(vtt) | file | `1nd1U6x6FCo6QDNWwbDGzPjJRQMxGdmg3` | {未確認} | {未確認} | active |
+| 文字起こし | 本体商談 文字起こし(vtt) | file | `1maNv3RtsSukYafA_edfBHbIPlVDZinnl` | {未確認} | {未確認} | active |
+| 資料 | 社内チャット状況(Doc) | file | `1dQsxAX4QSblfmgDEUaq9IQLUDIGPkyA8su_eqsFZCV0` | {未確認} | {未確認} | active |
+| 商談動画 | 商談動画(webm)・OS台本・SCデータ | multiple | 各サブフォルダ | {未確認} | {未確認} | unverified |
+
+### 6.3 追加ルール
+- Drive IDが増えたら、まずこの6.2表に追記する。
+- `DRIVE_REFERENCES.md` は代表Drive参照の一覧として使い、個別資料IDを無制限に詰め込まない。
+- `Drive参照種別` は `file` / `folder` / `url` / `multiple` / `unverified` のいずれか。
+- `状態` は `active` / `archived` / `deprecated` / `unverified` のいずれか。
+- 顧客リスト・電話番号・個人情報入り原本はGitHubに置かず、Drive ID参照に留める。

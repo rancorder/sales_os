@@ -34,3 +34,7 @@
 - `clients/studio_tram/operation_design.md` ← `clients/STUDIO_TRAM/運用設計_STUDIO_TRAM.md`
 - `clients/studio_tram/gpt_feedback_review.md` ← `clients/STUDIO_TRAM/検証_STUDIO_TRAM_GPT-FB対応.md`
 - `clients/studio_tram/meeting_presentation_script.md` ← `clients/STUDIO_TRAM/商談プレゼン原稿_STUDIO_TRAM.md`
+
+
+## Drive参照ID
+- 各案件のDrive参照IDは `DRIVE_REFERENCES.md` を正とする。

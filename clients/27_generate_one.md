@@ -13,7 +13,9 @@
 | 自分の役割 | 営業支援（プレ商談台本・トーク・コックピット運用） |
 | 体制 | アイドマHD経由SU。営業メール generate-one_a@sales-unit.jp |
 | ステータス | 商談フェーズ（プレ商談台本が複数回改訂済み・運用中） |
-| ドライブフォルダID | 11u1wBqEzpJkTg20YHRllynQF347MR-1o |
+| Drive参照種別 | file |
+| Drive参照ID | `1I14IWTzVAKAkYfPN2f_0hYXkNNaNmETY` |
+| Drive参照URL | https://drive.google.com/file/d/1I14IWTzVAKAkYfPN2f_0hYXkNNaNmETY/view |
 
 ## 2. 商材の核 / USP
 - 「日本企業超会議」＝YouTube中心の新時代経済メディア。企業のリーダー層を"物語の主人公"としてブランディングし、『リアルリーダーズ』『この人と仕事』『エグゼクティブアンサーズ』等の番組枠で発信。
@@ -45,12 +47,33 @@
 3. 出演ハードル（社長でなくてOK）を早期提示し本人拒否を下げる
 4. 勝ち＝二次商談（企画骨子案の場）トスアップ。効いた入口を記録
 
-## 6. 資料原本（ドライブ参照）
-| 資料 | fileId |
+## 6. 資料原本（Drive参照・増設可能）
+
+### 6.1 代表Drive参照
+| 項目 | 内容 |
 |---|---|
-| プレ商談台本（画面共有用・改訂版） | 1xNzRoqXdmXYwT4Vkv6w2kXQjY33TkQif5TG4p0x0A38 |
-| トークスクリプト | 1mGYPTs0Lw--t9hkXkwds5tMOHiz-8dinujL2UxHBsEw |
-| コックピット | 1e6M6i1Efyf6FSn9ZXl2Hja-8OR3J19o3qYrzJMjGFI0 |
-| インタビュー項目(docx) | 10bw3uLKTNrA2TmteuV11FRcVvIDevVG6 |
-| SU定例資料フォーマット | 1H-uPtwhczIr5rCzUZNMzkZZRDQ-Dpxj09otOT050J9o |
-| 架電ログフォルダ | 1HwvnSIp8VFUNBICXhDLRR_gCPhugyK7W |
+| 参照スコープ | representative |
+| Drive参照種別 | file |
+| Drive参照ID | `1I14IWTzVAKAkYfPN2f_0hYXkNNaNmETY` |
+| Drive参照URL | https://drive.google.com/file/d/1I14IWTzVAKAkYfPN2f_0hYXkNNaNmETY/view |
+| 管理方針 | この案件の入口。追加資料IDは6.2に追記する。 |
+
+> 代表Drive参照は `INDEX.md` / `DRIVE_REFERENCES.md` を正として管理。Driveは原本資料置き場、GitHubは営業OS正本。
+
+### 6.2 追加資料ID一覧
+| 種別 | 資料名 | Drive参照種別 | Drive ID / URL | 用途 | 更新日 | 状態 |
+|---|---|---|---|---|---|---|
+| 代表参照 | 案件入口・代表Drive参照 | file | `1I14IWTzVAKAkYfPN2f_0hYXkNNaNmETY` | 案件入口・原本資料確認 | 2026-06-26 | active |
+| 台本 | プレ商談台本（画面共有用・改訂版） | file | `1xNzRoqXdmXYwT4Vkv6w2kXQjY33TkQif5TG4p0x0A38` | {未確認} | {未確認} | active |
+| 台本 | トークスクリプト | file | `1mGYPTs0Lw--t9hkXkwds5tMOHiz-8dinujL2UxHBsEw` | {未確認} | {未確認} | active |
+| 資料 | コックピット | file | `1e6M6i1Efyf6FSn9ZXl2Hja-8OR3J19o3qYrzJMjGFI0` | {未確認} | {未確認} | active |
+| 資料 | インタビュー項目(docx) | file | `10bw3uLKTNrA2TmteuV11FRcVvIDevVG6` | {未確認} | {未確認} | active |
+| SU定例 | SU定例資料フォーマット | file | `1H-uPtwhczIr5rCzUZNMzkZZRDQ-Dpxj09otOT050J9o` | {未確認} | {未確認} | active |
+| フォルダ | 架電ログフォルダ | folder | `1HwvnSIp8VFUNBICXhDLRR_gCPhugyK7W` | {未確認} | {未確認} | active |
+
+### 6.3 追加ルール
+- Drive IDが増えたら、まずこの6.2表に追記する。
+- `DRIVE_REFERENCES.md` は代表Drive参照の一覧として使い、個別資料IDを無制限に詰め込まない。
+- `Drive参照種別` は `file` / `folder` / `url` / `multiple` / `unverified` のいずれか。
+- `状態` は `active` / `archived` / `deprecated` / `unverified` のいずれか。
+- 顧客リスト・電話番号・個人情報入り原本はGitHubに置かず、Drive ID参照に留める。

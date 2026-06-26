@@ -14,7 +14,9 @@
 | 体制 | アイドマHD経由SU |
 | 契約 | 2025/12-2026/12・286時間 |
 | ステータス | 商談フェーズ（再訪中心、見積130万Bヨミ） |
-| ドライブフォルダID | 12msatxyftX9umbFnMj4emwbohFOWfp-X |
+| Drive参照種別 | file |
+| Drive参照ID | `1S2yfMFEeNe5vkw03O8V5gLgLJAjs2q4O` |
+| Drive参照URL | https://drive.google.com/file/d/1S2yfMFEeNe5vkw03O8V5gLgLJAjs2q4O/view |
 
 ## 2. 商材の核 / USP
 - 訴求：**「企業イベントを、営業で使える"映像資産"に変える」**。展示会・セミナー・記者発表を当日で終わらせず、営業・採用・広報・IRで使い回す。
@@ -38,11 +40,32 @@
 2. 再訪先の信頼関係を活かし、採用/展示会/IRのどの映像資産が刺さるか具体化
 3. 業態別台本（中堅大企業/代理店/イベント会社）を商談者に徹底
 
-## 6. 資料原本（ドライブ参照）
-| 資料 | fileId |
+## 6. 資料原本（Drive参照・増設可能）
+
+### 6.1 代表Drive参照
+| 項目 | 内容 |
 |---|---|
-| 投影資料 | 1IrPLPvAuP5ZrWgS3tBFquuTlkjf8TBZOMa-p-4FTqi8 |
-| プレ商談台本（業態別分岐） | 1tkIrhKPvqIbEGCpx-EDCMO6DNFRuorQT-81EPFD1x7s |
-| サービス特徴と強み.pdf | 1MMAfjDe0w_Nfp61REBNVctS2tLfMZw_E |
-| SU定例資料 | 1AiW316phRmpcQ55_5za0nTv94brmfyR6Xi3Ui8CTjd8 |
-| アイドマ商談動画フォルダ | 1DPTgAT7UqQ4prFBDakZURr5dLOwwsc0M |
+| 参照スコープ | representative |
+| Drive参照種別 | file |
+| Drive参照ID | `1S2yfMFEeNe5vkw03O8V5gLgLJAjs2q4O` |
+| Drive参照URL | https://drive.google.com/file/d/1S2yfMFEeNe5vkw03O8V5gLgLJAjs2q4O/view |
+| 管理方針 | この案件の入口。追加資料IDは6.2に追記する。 |
+
+> 代表Drive参照は `INDEX.md` / `DRIVE_REFERENCES.md` を正として管理。Driveは原本資料置き場、GitHubは営業OS正本。
+
+### 6.2 追加資料ID一覧
+| 種別 | 資料名 | Drive参照種別 | Drive ID / URL | 用途 | 更新日 | 状態 |
+|---|---|---|---|---|---|---|
+| 代表参照 | 案件入口・代表Drive参照 | file | `1S2yfMFEeNe5vkw03O8V5gLgLJAjs2q4O` | 案件入口・原本資料確認 | 2026-06-26 | active |
+| 商談資料 | 投影資料 | file | `1IrPLPvAuP5ZrWgS3tBFquuTlkjf8TBZOMa-p-4FTqi8` | {未確認} | {未確認} | active |
+| 台本 | プレ商談台本（業態別分岐） | file | `1tkIrhKPvqIbEGCpx-EDCMO6DNFRuorQT-81EPFD1x7s` | {未確認} | {未確認} | active |
+| 資料 | サービス特徴と強み.pdf | file | `1MMAfjDe0w_Nfp61REBNVctS2tLfMZw_E` | {未確認} | {未確認} | active |
+| SU定例 | SU定例資料 | file | `1AiW316phRmpcQ55_5za0nTv94brmfyR6Xi3Ui8CTjd8` | {未確認} | {未確認} | active |
+| 商談動画 | アイドマ商談動画フォルダ | folder | `1DPTgAT7UqQ4prFBDakZURr5dLOwwsc0M` | {未確認} | {未確認} | active |
+
+### 6.3 追加ルール
+- Drive IDが増えたら、まずこの6.2表に追記する。
+- `DRIVE_REFERENCES.md` は代表Drive参照の一覧として使い、個別資料IDを無制限に詰め込まない。
+- `Drive参照種別` は `file` / `folder` / `url` / `multiple` / `unverified` のいずれか。
+- `状態` は `active` / `archived` / `deprecated` / `unverified` のいずれか。
+- 顧客リスト・電話番号・個人情報入り原本はGitHubに置かず、Drive ID参照に留める。

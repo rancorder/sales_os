@@ -12,7 +12,9 @@
 | 自分の役割 | 営業支援（業種別導入レポート・年間感謝カレンダーデッキ・8業種ルート分岐型HTML） |
 | 体制 | アイドマHD経由SU |
 | ステータス | 業種別ターゲティング・提案資料整備フェーズ |
-| ドライブフォルダID | 19o-HOFb_SYetLbi3neiSyR9R-7T5ezpS |
+| Drive参照種別 | file |
+| Drive参照ID | `1Zcq0PR1ATTCCoJ8bfn1T4bMc8-MtfIlB` |
+| Drive参照URL | https://drive.google.com/file/d/1Zcq0PR1ATTCCoJ8bfn1T4bMc8-MtfIlB/view |
 
 ## 2. 商材の核 / 攻め筋
 - 商材：果物ギフトサブスク。Bコース年45.5万・Aコース年78万（10セット×13ヶ月、税送料別）。
@@ -34,8 +36,29 @@
 2. 業種別に「予算科目に乗る用途」を冒頭フックにした台本を用意
 3. ゴルフ・士業は規制/運用制約（直送設計・特別利益規制）を踏まえた設計
 
-## 6. 資料原本（ドライブ参照）
-| 資料 | fileId |
+## 6. 資料原本（Drive参照・増設可能）
+
+### 6.1 代表Drive参照
+| 項目 | 内容 |
 |---|---|
-| 六業種の果物ギフト導入可能性レポート | 1vltX_1PSx6XcJHpD3pxJjQYnpFB15ogv8DebOk_SDAQ |
-| 株式会社フードサプライズ様_SU フォルダ | 16Q02eExZFaOgdOLLb08JlWk6x7xv9Bsb |
+| 参照スコープ | representative |
+| Drive参照種別 | file |
+| Drive参照ID | `1Zcq0PR1ATTCCoJ8bfn1T4bMc8-MtfIlB` |
+| Drive参照URL | https://drive.google.com/file/d/1Zcq0PR1ATTCCoJ8bfn1T4bMc8-MtfIlB/view |
+| 管理方針 | この案件の入口。追加資料IDは6.2に追記する。 |
+
+> 代表Drive参照は `INDEX.md` / `DRIVE_REFERENCES.md` を正として管理。Driveは原本資料置き場、GitHubは営業OS正本。
+
+### 6.2 追加資料ID一覧
+| 種別 | 資料名 | Drive参照種別 | Drive ID / URL | 用途 | 更新日 | 状態 |
+|---|---|---|---|---|---|---|
+| 代表参照 | 案件入口・代表Drive参照 | file | `1Zcq0PR1ATTCCoJ8bfn1T4bMc8-MtfIlB` | 案件入口・原本資料確認 | 2026-06-26 | active |
+| 分析資料 | 六業種の果物ギフト導入可能性レポート | file | `1vltX_1PSx6XcJHpD3pxJjQYnpFB15ogv8DebOk_SDAQ` | {未確認} | {未確認} | active |
+| フォルダ | 株式会社フードサプライズ様_SU フォルダ | folder | `16Q02eExZFaOgdOLLb08JlWk6x7xv9Bsb` | {未確認} | {未確認} | active |
+
+### 6.3 追加ルール
+- Drive IDが増えたら、まずこの6.2表に追記する。
+- `DRIVE_REFERENCES.md` は代表Drive参照の一覧として使い、個別資料IDを無制限に詰め込まない。
+- `Drive参照種別` は `file` / `folder` / `url` / `multiple` / `unverified` のいずれか。
+- `状態` は `active` / `archived` / `deprecated` / `unverified` のいずれか。
+- 顧客リスト・電話番号・個人情報入り原本はGitHubに置かず、Drive ID参照に留める。

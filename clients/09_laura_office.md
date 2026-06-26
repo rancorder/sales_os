@@ -12,7 +12,9 @@
 | 自分の役割 | 営業支援（個別相談対応・トーク分析） |
 | 体制 | アイドマHD経由SU |
 | ステータス | 個別相談フェーズ（文字起こし4本あり） |
-| ドライブフォルダID | 1I7m7xodoPtcrEuDk1jku-lUW_N9ole42 |
+| Drive参照種別 | file |
+| Drive参照ID | `1nlD7ufeSaHbMEn6x6TLi_lFowWLjVgzR` |
+| Drive参照URL | https://drive.google.com/file/d/1nlD7ufeSaHbMEn6x6TLi_lFowWLjVgzR/view |
 
 ## 2. 商材の核 / USP
 - クリスタルシンギングボウルの講座事業（CBA）。BtoC（個人向け）。
@@ -32,9 +34,28 @@
 2. 相談前後のフォロー導線（申込率向上）を設計
 3. 6章フォルダ精読で商材詳細・価格・USPを補強
 
-## 6. 資料原本（ドライブ参照）
-| 資料 | fileId |
-|---|---|
-| ドライブフォルダ（個別相談文字起こし4本含む） | 1I7m7xodoPtcrEuDk1jku-lUW_N9ole42 |
+## 6. 資料原本（Drive参照・増設可能）
 
-> ※本カルテはサマリー要点ベース。次回フォルダ精読で2〜6章を補強すること。
+### 6.1 代表Drive参照
+| 項目 | 内容 |
+|---|---|
+| 参照スコープ | representative |
+| Drive参照種別 | file |
+| Drive参照ID | `1nlD7ufeSaHbMEn6x6TLi_lFowWLjVgzR` |
+| Drive参照URL | https://drive.google.com/file/d/1nlD7ufeSaHbMEn6x6TLi_lFowWLjVgzR/view |
+| 管理方針 | この案件の入口。追加資料IDは6.2に追記する。 |
+
+> 代表Drive参照は `INDEX.md` / `DRIVE_REFERENCES.md` を正として管理。Driveは原本資料置き場、GitHubは営業OS正本。
+
+### 6.2 追加資料ID一覧
+| 種別 | 資料名 | Drive参照種別 | Drive ID / URL | 用途 | 更新日 | 状態 |
+|---|---|---|---|---|---|---|
+| 代表参照 | 案件入口・代表Drive参照 | file | `1nlD7ufeSaHbMEn6x6TLi_lFowWLjVgzR` | 案件入口・原本資料確認 | 2026-06-26 | active |
+| 文字起こし | ドライブフォルダ（個別相談文字起こし4本含む） | folder | `1I7m7xodoPtcrEuDk1jku-lUW_N9ole42` | {未確認} | {未確認} | active |
+
+### 6.3 追加ルール
+- Drive IDが増えたら、まずこの6.2表に追記する。
+- `DRIVE_REFERENCES.md` は代表Drive参照の一覧として使い、個別資料IDを無制限に詰め込まない。
+- `Drive参照種別` は `file` / `folder` / `url` / `multiple` / `unverified` のいずれか。
+- `状態` は `active` / `archived` / `deprecated` / `unverified` のいずれか。
+- 顧客リスト・電話番号・個人情報入り原本はGitHubに置かず、Drive ID参照に留める。

@@ -13,7 +13,9 @@
 | 自分の役割 | 営業支援（商談フローチャート・電話商談台本・トスアップ管理） |
 | 体制 | アイドマHD経由SU。現場担当=堀田、京都=大阪防水で稼働中 |
 | ステータス | 商談→二次トスアップフェーズ（協業同意先あり） |
-| ドライブフォルダID | 1QsBweKjH39qyIfeO-b4o2hV4zIb-jvOH |
+| Drive参照種別 | file |
+| Drive参照ID | `1HHb1CXwp-Hzl6eqOQ5pCZ3hnnYNR-hcQ` |
+| Drive参照URL | https://drive.google.com/file/d/1HHb1CXwp-Hzl6eqOQ5pCZ3hnnYNR-hcQ/view |
 
 ## 2. 商材の核 / USP
 - 無足場アンカー工法＝法面・斜面のアンカー施工を足場なしで実施。足場あり比で費用・工期・交通規制・伐採を削減。
@@ -39,13 +41,34 @@
 2. 大阪防水の現場見学を実現し新規参入の根拠に
 3. リストから不動産業を除外、ゼネコン・土木に集中
 
-## 6. 資料原本（ドライブ参照）
-| 資料 | fileId |
+## 6. 資料原本（Drive参照・増設可能）
+
+### 6.1 代表Drive参照
+| 項目 | 内容 |
 |---|---|
-| 初回電話商談台本 | 10SIKYdnyi-IgAVsU-svNf-N6lfKZFjVAtGiWYQMbFTQ |
-| 商談フローチャート.pdf | 1Z0R9bPuXtoVX8x9oUGup-IKtiWLI-Byv |
-| 二次商談トスアップ先 | 1pM4boE0oFOxdgfH_sbi0ocuwFwzY7k81d08z1zXpMCM |
-| トークスクリプト | 113OctmKuHIpGUOGD4iAUeJVNqafz1zBYRm-XjJsOjhQ |
-| コックピット | 1Vat1UfJ4EF6UEb0kVPKA2GrLNo4I3ohTixluf3LdYXg |
-| 商談動画フォルダ | 1n05r2ZXFoZultyIaN5HBC3FbdN08NRyK |
-| 先方共有資料フォルダ | 1LG4MAPsy-HbA363rOmlWjgRucHhf6KT_ |
+| 参照スコープ | representative |
+| Drive参照種別 | file |
+| Drive参照ID | `1HHb1CXwp-Hzl6eqOQ5pCZ3hnnYNR-hcQ` |
+| Drive参照URL | https://drive.google.com/file/d/1HHb1CXwp-Hzl6eqOQ5pCZ3hnnYNR-hcQ/view |
+| 管理方針 | この案件の入口。追加資料IDは6.2に追記する。 |
+
+> 代表Drive参照は `INDEX.md` / `DRIVE_REFERENCES.md` を正として管理。Driveは原本資料置き場、GitHubは営業OS正本。
+
+### 6.2 追加資料ID一覧
+| 種別 | 資料名 | Drive参照種別 | Drive ID / URL | 用途 | 更新日 | 状態 |
+|---|---|---|---|---|---|---|
+| 代表参照 | 案件入口・代表Drive参照 | file | `1HHb1CXwp-Hzl6eqOQ5pCZ3hnnYNR-hcQ` | 案件入口・原本資料確認 | 2026-06-26 | active |
+| 台本 | 初回電話商談台本 | file | `10SIKYdnyi-IgAVsU-svNf-N6lfKZFjVAtGiWYQMbFTQ` | {未確認} | {未確認} | active |
+| 資料 | 商談フローチャート.pdf | file | `1Z0R9bPuXtoVX8x9oUGup-IKtiWLI-Byv` | {未確認} | {未確認} | active |
+| 資料 | 二次商談トスアップ先 | file | `1pM4boE0oFOxdgfH_sbi0ocuwFwzY7k81d08z1zXpMCM` | {未確認} | {未確認} | active |
+| 台本 | トークスクリプト | file | `113OctmKuHIpGUOGD4iAUeJVNqafz1zBYRm-XjJsOjhQ` | {未確認} | {未確認} | active |
+| 資料 | コックピット | file | `1Vat1UfJ4EF6UEb0kVPKA2GrLNo4I3ohTixluf3LdYXg` | {未確認} | {未確認} | active |
+| 商談動画 | 商談動画フォルダ | folder | `1n05r2ZXFoZultyIaN5HBC3FbdN08NRyK` | {未確認} | {未確認} | active |
+| 商談資料 | 先方共有資料フォルダ | folder | `1LG4MAPsy-HbA363rOmlWjgRucHhf6KT_` | {未確認} | {未確認} | active |
+
+### 6.3 追加ルール
+- Drive IDが増えたら、まずこの6.2表に追記する。
+- `DRIVE_REFERENCES.md` は代表Drive参照の一覧として使い、個別資料IDを無制限に詰め込まない。
+- `Drive参照種別` は `file` / `folder` / `url` / `multiple` / `unverified` のいずれか。
+- `状態` は `active` / `archived` / `deprecated` / `unverified` のいずれか。
+- 顧客リスト・電話番号・個人情報入り原本はGitHubに置かず、Drive ID参照に留める。
