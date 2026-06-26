@@ -62,17 +62,13 @@ EXPECTED = {
     "clients/24_ikko_industry.md": ("有限会社一光工業", "file", "1ukcJTDGpF2azdgaquHo-UAxANRjnVKQZ"),
     "clients/25_hanayuki.md": ("株式会社花雪", "file", "192hX_NXmiwZQlOvCIBu1d6QUTrqAjyfl"),
     "clients/26_vista.md": ("株式会社ビスタ", "file", "1HHb1CXwp-Hzl6eqOQ5pCZ3hnnYNR-hcQ"),
-    "clients/27_generate_one.md": ("株式会社ジェネレートワン", "file", "1I14IWTzVAKAkYfPN2f_0hYXkNNaNmETY"),
+    "clients/27_generate_one.md": ("株式会社ジェネレートワン", "folder", "11u1wBqEzpJkTg20YHRllynQF347MR-1o"),
     "clients/28_inet_technologies.md": ("株式会社アイネットテクノロジーズ", "file", "1kSRsr-Ttd5gqHqSxjzgtzhU30ae1TQQw"),
 }
 
 REQUIRED_DRIVE_TABLE_HEADER = "| 種別 | 資料名 | Drive参照種別 | Drive ID / URL | 用途 | 更新日 | 状態 |"
 DANGEROUS_EXTENSIONS = {".csv", ".mp4", ".webm", ".vtt", ".xlsx", ".xls", ".docx", ".pdf"}
-BAD_FILENAME_PATTERNS = [
-    re.compile(r"\s"),
-    re.compile(r"\("),
-    re.compile(r"\)"),
-]
+BAD_FILENAME_PATTERNS = [re.compile(r"\s"), re.compile(r"\("), re.compile(r"\)")]
 WARN_EMAIL_RE = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
 
 errors = []
@@ -102,9 +98,8 @@ for p in ROOT.rglob("*"):
         r.encode("ascii")
     except UnicodeEncodeError:
         errors.append(f"non-ascii path: {r}")
-    name = p.name
     for pat in BAD_FILENAME_PATTERNS:
-        if pat.search(name):
+        if pat.search(p.name):
             errors.append(f"bad filename pattern: {r}")
             break
 
@@ -123,8 +118,7 @@ for p in ROOT.rglob("*"):
 expected_paths = set(EXPECTED.keys())
 actual_existing_card_paths = {path for path in expected_paths if (ROOT / path).exists()}
 if actual_existing_card_paths != expected_paths:
-    missing = sorted(expected_paths - actual_existing_card_paths)
-    for m in missing:
+    for m in sorted(expected_paths - actual_existing_card_paths):
         errors.append(f"missing client card: {m}")
 
 # Numeric client-card-like files under clients must be in EXPECTED.
@@ -153,7 +147,6 @@ for path, (title_token, drive_kind, drive_id) in EXPECTED.items():
     if f"| Drive参照ID | `{drive_id}` |" not in txt:
         errors.append(f"drive id mismatch/missing in client: {path} expected {drive_id}")
 
-    # Soft warning for email-like strings. Do not fail because official company contact can be valid.
     for match in WARN_EMAIL_RE.findall(txt):
         warnings.append(f"email-like string found in {path}: {match}")
 
@@ -177,14 +170,12 @@ else:
     if len(rows) != 28:
         errors.append(f"DRIVE_REFERENCES row count mismatch: expected 28 got {len(rows)}")
     if set(rows.keys()) != expected_paths:
-        missing = sorted(expected_paths - set(rows.keys()))
-        extra = sorted(set(rows.keys()) - expected_paths)
-        for m in missing:
+        for m in sorted(expected_paths - set(rows.keys())):
             errors.append(f"DRIVE_REFERENCES missing client path: {m}")
-        for e in extra:
+        for e in sorted(set(rows.keys()) - expected_paths):
             errors.append(f"DRIVE_REFERENCES extra client path: {e}")
     seen_ids = {}
-    for path, (title_token, expected_kind, expected_drive_id) in EXPECTED.items():
+    for path, (_title_token, expected_kind, expected_drive_id) in EXPECTED.items():
         row = rows.get(path)
         if not row:
             continue
