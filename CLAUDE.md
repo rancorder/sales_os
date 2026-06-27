@@ -1,4 +1,24 @@
-# CLAUDE.md｜カルテ生成規約
+# CLAUDE.md｜Claude Code入口 / カルテ生成規約
+
+@AGENTS.md
+
+このファイルは、Claude Code が `rancorder/sales_os` を扱うための入口である。
+
+共通ルールは `AGENTS.md` を正本とし、このファイルではClaude Code向けの補足と、従来のカルテ生成規約を定義する。
+
+---
+
+## Claude Code向け補足
+
+- 作業開始時は `AGENTS.md` を前提にする。
+- 営業文脈の整理、案件カルテ更新、商談分析、スライド設計、長文Markdown整備を優先的に担当する。
+- HTML/CSS/JS実装も可能だが、実装専任・差分修正・Vercel向け調整はCodex向きとして切り分けてもよい。
+- スライド開発では `prompts/dual_agent_slide_development_prompt.md` と `slides/SLIDE_OS_POLICY.md` を読む。
+- Codexと併用する場合は、`docs/dual_agent_ops_guide.md` の役割分担に従う。
+
+---
+
+## カルテ生成規約
 
 このリポジトリでカルテを生成・更新するときのルール。
 
@@ -23,7 +43,9 @@
 - 4章 進捗ログ
 - 5章 次の一手
 - 6章 資料原本（資料名＋fileID一覧）
+- 7章 スライド開発履歴（必要に応じて追加）
 
 ## 更新時
 - 既存カルテを上書きせず、4章「進捗ログ」と5章「次の一手」を追記更新する。
 - 新しい資料が増えたら6章にfileIDを追加。
+- スライド案件を作成・更新した場合は7章にGitHub path / Vercel URL / 判断ログを追記する。
