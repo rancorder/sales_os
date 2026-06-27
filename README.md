@@ -14,14 +14,16 @@
 
 ## 構成
 
-```
+```txt
 sales-os/
 ├── README.md
 ├── .gitignore
 ├── INDEX.md          ← 全社一覧（社名・商材・ステータス）
 ├── CLAUDE.md         ← カルテ生成規約
-└── clients/
-    └── {番号}_{社名}.md   ← 各社カルテ（0章〜6章）
+├── clients/
+│   └── {番号}_{社名}.md   ← 各社カルテ（0章〜6章）
+├── slides/           ← v6追加：HTMLスライド / Vercel公開 / スライド開発OS
+└── docs/
 ```
 
 > Driveから移植した都合でカルテはフラット配置（`clients/{番号}_{社名}.md`）。
@@ -69,3 +71,42 @@ Drive IDは増える前提で設計しています。
 ## v5監査対応
 
 Codex監査の指摘を受け、pushスクリプトを`tools/`へ、PUSHガイドを`docs/`へ移動し、`tools/validate_sales_os.py`の検証範囲を強化した。
+
+
+## v6 SlideOps対応：GitHub → Vercel スライド開発OS
+
+既存のGitHub/Vercelスライド資産を営業OSに吸収し、スライド制作を「単発資料作成」ではなく「営業判断を実装する開発工程」として扱う。
+
+追加ファイル：
+
+- `slides/README.md`：スライド開発レイヤーの入口
+- `slides/SLIDE_OS_POLICY.md`：スライド正本・原本・品質・Vercel運用ルール
+- `slides/SOURCE_REPOS.md`：既存GitHubスライド資産からの吸収メモ
+- `slides/templates/PROJECT_TEMPLATE.md`：新規スライド案件テンプレート
+- `slides/patterns/README.md`：案件横断のスライド構成パターン集
+- `prompts/slide_development_prompt.md`：Claude / Codex / GPT向けスライド開発プロンプト
+- `docs/slide_ops_sales_os_guide.md`：SlideOps運用ガイド
+
+基本フロー：
+
+```txt
+商談ログ / 商談分析
+↓
+slide_spec.md
+↓
+storyboard.md
+↓
+talk_script.md
+↓
+HTML/CSS/JS
+↓
+GitHub push
+↓
+Vercel確認
+↓
+商談で使用
+↓
+反応を案件カルテへ戻す
+```
+
+このレイヤーにより、商談資料はPowerPoint作業ではなく、GitHub管理の営業プロダクト開発として運用する。
