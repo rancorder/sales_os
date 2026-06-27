@@ -18,11 +18,13 @@
 sales-os/
 ├── README.md
 ├── .gitignore
-├── INDEX.md          ← 全社一覧（社名・商材・ステータス）
-├── CLAUDE.md         ← カルテ生成規約
+├── AGENTS.md        ← v6.1追加：Claude Code / Codex 共通AIエージェント規約
+├── INDEX.md         ← 全社一覧（社名・商材・ステータス）
+├── CLAUDE.md        ← Claude Code入口 / AGENTS.md参照 / カルテ生成規約
 ├── clients/
-│   └── {番号}_{社名}.md   ← 各社カルテ（0章〜6章）
-├── slides/           ← v6追加：HTMLスライド / Vercel公開 / スライド開発OS
+│   └── {番号}_{社名}.md   ← 各社カルテ（0章〜7章）
+├── slides/          ← v6追加：HTMLスライド / Vercel公開 / スライド開発OS
+├── prompts/         ← AIエージェント向けプロンプト
 └── docs/
 ```
 
@@ -31,7 +33,7 @@ sales-os/
 
 ## カルテ書式
 
-0章 AI起動プロンプト / 1章 基本情報 / 2章 商材の核・USP / 3章 商談設計 / 4章 進捗ログ / 5章 次の一手 / 6章 資料原本（fileID一覧）
+0章 AI起動プロンプト / 1章 基本情報 / 2章 商材の核・USP / 3章 商談設計 / 4章 進捗ログ / 5章 次の一手 / 6章 資料原本（fileID一覧） / 7章 スライド開発履歴
 
 情報が無い項目は捏造せず `{未確認}` で枠のみ残す。
 
@@ -110,3 +112,37 @@ Vercel確認
 ```
 
 このレイヤーにより、商談資料はPowerPoint作業ではなく、GitHub管理の営業プロダクト開発として運用する。
+
+
+## v6.1 Claude Code / Codex 両対応
+
+Claude Code と Codex の両方から同じ営業OSルールで作業できるよう、AIエージェント共通レイヤーを追加した。
+
+追加・更新ファイル：
+
+- `AGENTS.md`：Claude Code / Codex 共通AIエージェント規約
+- `CLAUDE.md`：Claude Code入口。`@AGENTS.md` を参照し、Claude固有の補足を記載
+- `docs/dual_agent_ops_guide.md`：Claude Code / Codex の役割分担と共同作業フロー
+- `prompts/dual_agent_slide_development_prompt.md`：両対応スライド開発プロンプト
+
+役割分担：
+
+```txt
+Claude Code
+= 営業文脈整理 / 案件カルテ読解 / 商談分析 / slide_spec / storyboard / talk_script / decision_log
+
+Codex
+= HTML/CSS/JS実装 / Vercel向け調整 / 表示崩れ修正 / 差分実装 / レビュー指摘対応
+```
+
+最短フロー：
+
+```txt
+Claude Codeで勝ち筋を設計
+↓
+CodexでHTMLスライドとして実装
+↓
+Vercelで確認
+↓
+Claude CodeまたはCodexで判断ログと案件カルテを更新
+```
