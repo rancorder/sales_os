@@ -13,7 +13,7 @@
 | 5 | [株式会社共栄データセンター](https://drive.google.com/file/d/1NKnTuwL7h05-C469idOSXxPkwsWQQBNz/view) | データエントリー（福井・KYCOM） | 枠（要補強） |
 | 6 | [株式会社ハイウェル](https://drive.google.com/file/d/1ZnGPCrhR1gCzaRG8BIoDWC9NekhzDY_U/view) | {未確認}（動画/分析のみ） | 枠のみ |
 | 7 | [エイデックマネジメント](https://drive.google.com/file/d/1nKqe_OXcItaQ2zRlGWXrd4BtoXNQwtDL/view) | SNS集客/DX/よろず支援（岩手） | 取材完了 |
-| 8 | [株式会社ティーツー・ラボラトリ](https://drive.google.com/file/d/1HQIjqlkqc77UiihNe5JEbnSKh6ciyiAu/view) | エッジAI/小型AIコンピュータ | 架電（展示会リード） |
+| 8 | [株式会社ティーツー・ラボラトリ](https://drive.google.com/file/d/1HQIjqlkqc77UiihNe5JEbnSKh6ciyiAu/view) | エッジAI/小型AIコンピュータ | 架電OS追加済（技術営業リスト検証モデル） |
 | 9 | [ラウラオフィス](https://drive.google.com/file/d/1nlD7ufeSaHbMEn6x6TLi_lFowWLjVgzR/view) | クリスタルシンギングボウル講座（BtoC） | 個別相談（5本確認・6/25最新分析済） |
 | 10 | [株式会社AILE](https://drive.google.com/file/d/1X5G6Uddy76F9wWFtyCWmzraxV1zmSRAF/view) | 建設DX/現場管理SaaS | 架電停滞 |
 | 11 | [想像技術創造株式会社](https://drive.google.com/file/d/1r-wc4p9g0nWU9ZvKfqVYlzRnu_Cbad-0/view) | 人工設計ペプチド（神戸） | 一次商談→二次へ |
@@ -40,6 +40,7 @@
 
 ## 共通OS / 横展開パターン
 - `patterns/sales_support_forward_design_os.md`：FirstFan / AGERUケア案件から抽出した「営業支援OS｜商談再現・前進設計モデル」。小林フィルターとは別に、商談ログから勝ち筋・決裁導線・検証設計へ再構築する中核エンジンとして使う。
+- `patterns/call_log_scoring_feedback_os.md`：T2案件から抽出した「架電ログ再学習・リスト評価改善モデル」。営業電話をアポ取りではなく、リスト評価AI・市場仮説・トーク精度を鍛える実験装置として使う。
 
 ## 要補強リスト
 - フォルダID未取得：#1 FirstFan / #2 ATデザイン / #5 共栄データセンター
