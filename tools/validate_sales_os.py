@@ -53,7 +53,7 @@ EXPECTED = {
     "clients/13_asahien.md": ("有限会社旭園", "file", "1u0NLZ1suDpslqzuDI2donXy0bAsT6II6"),
     "clients/14_aim_rose.md": ("株式会社aim-rose", "file", "1-3hzXOOTvzf1fZgV5-L0JqIpDL-PTKtj"),
     "clients/15_sanko.md": ("参鋼株式会社", "file", "1kgb3i0uxWP-L07D4fX4dovRWOd0ehIiV"),
-    "clients/16_kotonoha_marketing.md": ("株式会社kotonohaマーケティング", "file", "1StPvsJg1i-kQGz0bs0I95daclUmOWhfq"),
+    "clients/16_kotonoha_marketing.md": ("株式会社kotonohaマーケティング", "folder", "1EKSOFoUVWFZy9mbnrMfzsPi0M8dkLT4W"),
     "clients/17_sm_tech.md": ("株式会社SM TECH", "file", "12oaxt5YTvEdylTYpx3CklT64tTJy3Sk0"),
     "clients/18_wse.md": ("ワールドシステムエンジニアリング", "file", "1KPhRO5dWQBp3QWcVUlDzAVOF3xw-Irgf"),
     "clients/19_reegle.md": ("Reegle株式会社", "file", "1tHXnyxomP7hG9fZde5dnx0lcthFF-FVR"),
