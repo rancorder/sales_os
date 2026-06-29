@@ -33,7 +33,7 @@
 | 25 | [株式会社花雪](https://drive.google.com/file/d/192hX_NXmiwZQlOvCIBu1d6QUTrqAjyfl/view) | 求人AI「リーパ」（大阪） | 架電（台本改修中）★分析済 |
 | 26 | [株式会社ビスタ](https://drive.google.com/file/d/1HHb1CXwp-Hzl6eqOQ5pCZ3hnnYNR-hcQ/view) | 無足場アンカー工法（愛媛） | 二次トスアップ |
 | 27 | [株式会社ジェネレートワン](https://drive.google.com/drive/folders/11u1wBqEzpJkTg20YHRllynQF347MR-1o) | 経済系YouTube「日本企業超会議」出演・資産化 | 商談（台本運用中） |
-| 28 | [株式会社アイネットテクノロジーズ](https://drive.google.com/file/d/1kSRsr-Ttd5gqHqSxjzgtzhU30ae1TQQw/view) | {未確認}（IT系・取材待ち） | 立ち上げ前 |
+| 28 | [株式会社アイネットテクノロジーズ](clients/28_inet_technologies.md) | Microsoft 365 / Office 365 セキュリティ支援・SOC・SCS評価制度文脈 | SU運用OS追加済（商談者育成・アラート対応・M365リード判定） |
 
 ## 専用フォルダ化済み
 - **#4 STUDIO TRAM** → `clients/STUDIO_TRAM/`（カルテ・戦略v2・運用設計・検証・プレゼン原稿・Word版。商談スライドHTML=github.com/rancorder/STUDIOTRAM）
@@ -42,10 +42,14 @@
 - `patterns/sales_support_forward_design_os.md`：FirstFan / AGERUケア案件から抽出した「営業支援OS｜商談再現・前進設計モデル」。小林フィルターとは別に、商談ログから勝ち筋・決裁導線・検証設計へ再構築する中核エンジンとして使う。
 - `patterns/call_log_scoring_feedback_os.md`：T2案件から抽出した「架電ログ再学習・リスト評価改善モデル」。営業電話をアポ取りではなく、リスト評価AI・市場仮説・トーク精度を鍛える実験装置として使う。
 - `patterns/post_second_meeting_follow_is_os.md`：FirstFan / AGERUケア案件から抽出した「2次商談後フォロー・IS比較検証OS」。2次商談後の停滞を電話フォロー・2.5次商談・社内共有資料・決裁者接続に分解し、SP＋IS比較で勝ちパターンを抽出する。
+- `patterns/su_meeting_player_ramp_up_os.md`：アイネット案件から抽出した「SU商談者育成OS」。フォローコール担当を商談同席・台本反映・主導商談・独り立ちへ段階育成する。
+- `patterns/post_meeting_task_checklist_os.md`：アイネット案件から抽出した「商談後タスク漏れ防止OS」。SC / Mazrica / Outlook / Teams / メール / 録画格納をチェックリスト化する。
+- `patterns/sales_support_alert_response_os.md`：アイネット案件から抽出した「営業支援アラート対応OS」。解約要望・代表指摘・上長説明時の事実整理と改善提案を型化する。
+- `patterns/security_solution_m365_sales_os.md`：アイネット案件から抽出した「M365セキュリティ営業OS」。M365利用/導入予定・SOC・SCS評価制度を入口に商談化する。
 
 ## 要補強リスト
 - フォルダID未取得：#1 FirstFan / #2 ATデザイン / #5 共栄データセンター
-- 商材が未確認：#6 ハイウェル / #24 一光工業 / #28 アイネット（取材待ち）
+- 商材が未確認：#6 ハイウェル / #24 一光工業
 - 立ち上げ補強中：#3 ジェイシーティー（貿易商材の優先商材・ターゲット確定）
 
 ## 運用メモ
