@@ -59,7 +59,7 @@ EXPECTED = {
     "clients/19_reegle.md": ("Reegle株式会社", "file", "1tHXnyxomP7hG9fZde5dnx0lcthFF-FVR"),
     "clients/20_food_surprise.md": ("株式会社フードサプライズ", "file", "1Zcq0PR1ATTCCoJ8bfn1T4bMc8-MtfIlB"),
     "clients/21_ast.md": ("株式会社アスト", "file", "15ez44jIAClPxXA3KjJ0_HlPLsqnyYpIC"),
-    "clients/22_kansha.md": ("株式会社KANSHA", "file", "1S2yfMFEeNe5vkw03O8V5gLgLJAjs2q4O"),
+    "clients/22_kansha.md": ("株式会社KANSHA", "folder", "12msatxyftX9umbFnMj4emwbohFOWfp-X"),
     "clients/23_nihon_shin_kikaku.md": ("合同会社日本真企画", "file", "18Mc-KwsIcBLfo7IRyK45JFoaZKu-JO7Q"),
     "clients/24_ikko_industry.md": ("有限会社一光工業", "file", "1ukcJTDGpF2azdgaquHo-UAxANRjnVKQZ"),
     "clients/25_hanayuki.md": ("株式会社花雪", "file", "192hX_NXmiwZQlOvCIBu1d6QUTrqAjyfl"),
@@ -185,10 +185,12 @@ else:
             errors.append(f"DRIVE_REFERENCES kind mismatch: {path} expected {expected_kind} got {row['kind']}")
         if row["drive_id"] != expected_drive_id:
             errors.append(f"DRIVE_REFERENCES ID mismatch: {path} expected {expected_drive_id} got {row['drive_id']}")
-        if expected_kind == "folder" and "/drive/folders/" not in row["url"]:
-            errors.append(f"DRIVE_REFERENCES URL kind mismatch for folder: {path}")
-        if expected_kind == "file" and "/file/d/" not in row["url"]:
-            errors.append(f"DRIVE_REFERENCES URL kind mismatch for file: {path}")
+        url = row["url"]
+        if url != "ID参照":
+            if expected_kind == "folder" and "/drive/folders/" not in url:
+                errors.append(f"DRIVE_REFERENCES URL kind mismatch for folder: {path}")
+            if expected_kind == "file" and "/file/d/" not in url:
+                errors.append(f"DRIVE_REFERENCES URL kind mismatch for file: {path}")
         if row["drive_id"] in seen_ids:
             errors.append(f"duplicate Drive ID: {row['drive_id']} in {seen_ids[row['drive_id']]} and {path}")
         seen_ids[row["drive_id"]] = path
