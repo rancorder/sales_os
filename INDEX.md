@@ -16,7 +16,7 @@
 | 8 | [株式会社ティーツー・ラボラトリ](https://drive.google.com/file/d/1HQIjqlkqc77UiihNe5JEbnSKh6ciyiAu/view) | エッジAI/小型AIコンピュータ | 架電OS追加済（技術営業リスト検証モデル） |
 | 9 | [ラウラオフィス](https://drive.google.com/file/d/1nlD7ufeSaHbMEn6x6TLi_lFowWLjVgzR/view) | クリスタルシンギングボウル講座（BtoC） | 個別相談（5本確認・6/25最新分析済） |
 | 10 | [株式会社AILE](https://drive.google.com/file/d/1X5G6Uddy76F9wWFtyCWmzraxV1zmSRAF/view) | 建設DX/現場管理SaaS | 架電停滞 |
-| 11 | [想像技術創造株式会社](clients/11_想像技術創造株式会社.md) | 人工設計ペプチド（神戸） | 商談OS追加済（備前=共創候補／創作メディカル=紹介・探索ハブ） |
+| 11 | [想像技術創造株式会社](clients/11_sozo_gijutsu_sozo.md) | 人工設計ペプチド（神戸） | 商談OS追加済（備前=共創候補／創作メディカル=紹介・探索ハブ） |
 | 12 | [HITO Film株式会社](https://drive.google.com/file/d/1a2MqZEKD8Cx6BWizXSM5wjkXG42pErx_/view) | 映像活用支援（沖縄） | 架電（拒否率課題） |
 | 13 | [有限会社旭園](https://drive.google.com/file/d/1u0NLZ1suDpslqzuDI2donXy0bAsT6II6/view) | ベトナム大学生インターン | アポ→ナーチャリング |
 | 14 | [株式会社aim-rose](https://drive.google.com/file/d/1-3hzXOOTvzf1fZgV5-L0JqIpDL-PTKtj/view) | オーダースーツ外注／知育プログラム | 架電→フォーム営業へ |
