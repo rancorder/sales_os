@@ -34,7 +34,7 @@
 | 26 | [株式会社ビスタ](https://drive.google.com/file/d/1HHb1CXwp-Hzl6eqOQ5pCZ3hnnYNR-hcQ/view) | 無足場アンカー工法（愛媛） | 二次トスアップ |
 | 27 | [株式会社ジェネレートワン](https://drive.google.com/drive/folders/11u1wBqEzpJkTg20YHRllynQF347MR-1o) | 経済系YouTube「日本企業超会議」出演・資産化 | 商談（台本運用中） |
 | 28 | [株式会社アイネットテクノロジーズ](clients/28_inet_technologies.md) | Microsoft 365 / Office 365 セキュリティ支援・SOC・SCS評価制度文脈 | SU運用OS追加済（商談者育成・アラート対応・M365リード判定） |
-| 29 | [福美人株式会社](clients/29_fukubijin.md) | {未確認}（人事・採用責任者向け導線あり） | 新規OS作成・Driveフォルダ接続済・商材/着地要確認 |
+| 29 | [福美人株式会社](clients/29_fukubijin.md) | FUKUBISUI / 福美水、低刺激スキンケア、美容・商品開発・PR・編集・イベント支援 | Web調査反映済。人事向け商材は研修/福利厚生/採用ブランディング仮説、要確認 |
 
 ## 専用フォルダ化済み
 - **#4 STUDIO TRAM** → `clients/STUDIO_TRAM/`（カルテ・戦略v2・運用設計・検証・プレゼン原稿・Word版。商談スライドHTML=github.com/rancorder/STUDIOTRAM）
@@ -50,8 +50,9 @@
 
 ## 要補強リスト
 - フォルダID未取得：#1 FirstFan / #2 ATデザイン / #5 共栄データセンター
-- 商材が未確認：#6 ハイウェル / #24 一光工業 / #29 福美人株式会社
+- 商材が未確認：#6 ハイウェル / #24 一光工業
 - 立ち上げ補強中：#3 ジェイシーティー（貿易商材の優先商材・ターゲット確定）
+- 人事向け商材要確認：#29 福美人株式会社（研修 / 福利厚生 / 採用ブランディング / 商品開発PRのどれを売るか）
 
 ## 運用メモ
 - 正本＝GitHub `rancorder/sales_os`。Driveは原本資料置き場。
