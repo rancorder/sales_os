@@ -21,7 +21,7 @@
 | 13 | [有限会社旭園](https://drive.google.com/file/d/1u0NLZ1suDpslqzuDI2donXy0bAsT6II6/view) | ベトナム大学生インターン | アポ→ナーチャリング |
 | 14 | [株式会社aim-rose](https://drive.google.com/file/d/1-3hzXOOTvzf1fZgV5-L0JqIpDL-PTKtj/view) | オーダースーツ外注／知育プログラム | 架電→フォーム営業へ |
 | 15 | [参鋼株式会社](https://drive.google.com/file/d/1kgb3i0uxWP-L07D4fX4dovRWOd0ehIiV/view) | 薄板鉄鋼小ロット商社（西三河） | 一次商談 |
-| 16 | [株式会社kotonohaマーケティング](https://drive.google.com/file/d/1StPvsJg1i-kQGz0bs0I95daclUmOWhfq/view) | RBL(3x3)協賛／AIO対策 | 架電→一次商談 |
+| 16 | [株式会社kotonohaマーケティング](clients/16_kotonoha_marketing.md) | RBL(3x3)協賛／AIO対策 | Driveフォルダ接続・RBL/AIO分離OS拡充済 |
 | 17 | [株式会社SM TECH](https://drive.google.com/file/d/12oaxt5YTvEdylTYpx3CklT64tTJy3Sk0/view) | 機械部品加工(海外3拠点)／ECO SILITILE | 商談（Bヨミ5件） |
 | 18 | [ワールドシステムエンジニアリング(WSE)](https://drive.google.com/file/d/1KPhRO5dWQBp3QWcVUlDzAVOF3xw-Irgf/view) | 溶接治具・溶接ライン設計の外注補完 | 一次商談 |
 | 19 | [Reegle株式会社](https://drive.google.com/file/d/1tHXnyxomP7hG9fZde5dnx0lcthFF-FVR/view) | 木製ユニット「ジラフ」(平時×災害) | 架電（受付突破課題） |
