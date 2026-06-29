@@ -227,22 +227,25 @@ CBが取れない
 
 ### 6.1 代表Drive参照
 
-| 種別 | ID | URL | 用途 |
-|---|---|---|---|
-| folder | `1XRNN_vZFkMQ6q7w9DQ9ljKSTkVBPjHGN` | https://drive.google.com/drive/folders/1XRNN_vZFkMQ6q7w9DQ9ljKSTkVBPjHGN | 福美人株式会社案件の代表Driveフォルダ |
+| 項目 | 内容 |
+|---|---|
+| Drive参照種別 | folder |
+| Drive参照ID | `1XRNN_vZFkMQ6q7w9DQ9ljKSTkVBPjHGN` |
+| Drive参照URL | https://drive.google.com/drive/folders/1XRNN_vZFkMQ6q7w9DQ9ljKSTkVBPjHGN |
+| 用途 | 福美人株式会社案件の代表Driveフォルダ |
 
-### 6.2 確認済み資料
+### 6.2 追加資料ID一覧
 
-| 種別 | ID | 資料名 | 用途 |
-|---|---|---|---|
-| spreadsheet | `1ozQIHH9QD58i9gTQax2-MZWIEwAdWOw41YWsIpPwJhA` | 福美人株式会社様_コックピット | プロジェクト工程・進捗管理 |
-| pdf | `1Ch9brbquFkxx9N03sA1pP0xCr-e5-m5W` | 〈SU〉260423_福美人株式会社様_セールスユニット（金井祐仁） - ★AG(分割) (1).pdf | SU関連資料 |
-| document | `1GJ5DxiV6WNWeQf65hoJNdy5AqE_ZbgQxXTIO0E6J7ug` | 福美人株式会社様_SU_取材MTG | 取材MTGテンプレ・初期確認 |
-| file | `1_5io3a3wL4F0jybNQ729FxYOUUFjwZM7` | 福美人株式会社様_セールスユニット_インタビュー項目 | 取材項目 |
-| document | `19zVkeRKph9zu9qetrIsHEMbuQXtQX91ZdJIcC9bskcI` | 福美人株式会社様_SU定例資料_フォーマット | 定例資料フォーマット |
-| spreadsheet | `1yLso5UGDXJlh2z3lUffAodmNwDyBdZCUFa5m2OFgGg8` | 福美人株式会社様_トークスクリプト | 架電台本・切り返し |
-| document | `11mKveGSeBE6yqR3xaZpvRBF6UW-95yzX9koHkQycn4o` | 福美人株式会社様_SU_OS台本 | SU_OS台本。ただし本文抽出は空。 |
-| folder | `1Dn09GDDuKJIFQh5UcPn7-omWUYsrCVNi` | 動画格納用 | 商談動画・録画格納候補 |
+| 種別 | 資料名 | Drive参照種別 | Drive ID / URL | 用途 | 更新日 | 状態 |
+|---|---|---|---|---|---|---|
+| spreadsheet | 福美人株式会社様_コックピット | file | `1ozQIHH9QD58i9gTQax2-MZWIEwAdWOw41YWsIpPwJhA` | プロジェクト工程・進捗管理 | 2026-06-29 | 確認済み |
+| pdf | 〈SU〉260423_福美人株式会社様_セールスユニット AG分割PDF | file | `1Ch9brbquFkxx9N03sA1pP0xCr-e5-m5W` | SU関連資料 | 2026-06-29 | 確認済み |
+| document | 福美人株式会社様_SU_取材MTG | file | `1GJ5DxiV6WNWeQf65hoJNdy5AqE_ZbgQxXTIO0E6J7ug` | 取材MTGテンプレ・初期確認 | 2026-06-29 | 確認済み |
+| file | 福美人株式会社様_セールスユニット_インタビュー項目 | file | `1_5io3a3wL4F0jybNQ729FxYOUUFjwZM7` | 取材項目 | 2026-06-29 | 確認済み |
+| document | 福美人株式会社様_SU定例資料_フォーマット | file | `19zVkeRKph9zu9qetrIsHEMbuQXtQX91ZdJIcC9bskcI` | 定例資料フォーマット | 2026-06-29 | 確認済み |
+| spreadsheet | 福美人株式会社様_トークスクリプト | file | `1yLso5UGDXJlh2z3lUffAodmNwDyBdZCUFa5m2OFgGg8` | 架電台本・切り返し | 2026-06-29 | 確認済み |
+| document | 福美人株式会社様_SU_OS台本 | file | `11mKveGSeBE6yqR3xaZpvRBF6UW-95yzX9koHkQycn4o` | SU_OS台本 | 2026-06-29 | 本文抽出空 |
+| folder | 動画格納用 | folder | `1Dn09GDDuKJIFQh5UcPn7-omWUYsrCVNi` | 商談動画・録画格納候補 | 2026-06-29 | 確認済み |
 
 ---
 
