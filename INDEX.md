@@ -41,6 +41,7 @@
 ## 共通OS / 横展開パターン
 - `patterns/sales_support_forward_design_os.md`：FirstFan / AGERUケア案件から抽出した「営業支援OS｜商談再現・前進設計モデル」。小林フィルターとは別に、商談ログから勝ち筋・決裁導線・検証設計へ再構築する中核エンジンとして使う。
 - `patterns/call_log_scoring_feedback_os.md`：T2案件から抽出した「架電ログ再学習・リスト評価改善モデル」。営業電話をアポ取りではなく、リスト評価AI・市場仮説・トーク精度を鍛える実験装置として使う。
+- `patterns/post_second_meeting_follow_is_os.md`：FirstFan / AGERUケア案件から抽出した「2次商談後フォロー・IS比較検証OS」。2次商談後の停滞を電話フォロー・2.5次商談・社内共有資料・決裁者接続に分解し、SP＋IS比較で勝ちパターンを抽出する。
 
 ## 要補強リスト
 - フォルダID未取得：#1 FirstFan / #2 ATデザイン / #5 共栄データセンター
