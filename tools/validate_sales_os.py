@@ -66,6 +66,7 @@ EXPECTED = {
     "clients/26_vista.md": ("株式会社ビスタ", "file", "1HHb1CXwp-Hzl6eqOQ5pCZ3hnnYNR-hcQ"),
     "clients/27_generate_one.md": ("株式会社ジェネレートワン", "folder", "11u1wBqEzpJkTg20YHRllynQF347MR-1o"),
     "clients/28_inet_technologies.md": ("株式会社アイネットテクノロジーズ", "file", "1kSRsr-Ttd5gqHqSxjzgtzhU30ae1TQQw"),
+    "clients/29_fukubijin.md": ("福美人株式会社", "folder", "1XRNN_vZFkMQ6q7w9DQ9ljKSTkVBPjHGN"),
 }
 
 REQUIRED_DRIVE_TABLE_HEADER = "| 種別 | 資料名 | Drive参照種別 | Drive ID / URL | 用途 | 更新日 | 状態 |"
@@ -169,8 +170,8 @@ else:
         client_file = client_file.strip("`")
         drive_id = drive_id.strip("`")
         rows[client_file] = {"idx": int(idx), "name": client_name, "kind": kind, "drive_id": drive_id, "url": url}
-    if len(rows) != 28:
-        errors.append(f"DRIVE_REFERENCES row count mismatch: expected 28 got {len(rows)}")
+    if len(rows) != len(EXPECTED):
+        errors.append(f"DRIVE_REFERENCES row count mismatch: expected {len(EXPECTED)} got {len(rows)}")
     if set(rows.keys()) != expected_paths:
         for m in sorted(expected_paths - set(rows.keys())):
             errors.append(f"DRIVE_REFERENCES missing client path: {m}")
@@ -224,4 +225,4 @@ print("root allow-list: strict")
 print("drive reference consistency: strict")
 print("drive expansion table: v5")
 if warnings:
-    print(f"warnings: {len(set(warnings))} non-blocking")
+    print(f"warnings: {len(set(warnings))}")
