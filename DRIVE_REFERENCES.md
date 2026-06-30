@@ -41,3 +41,4 @@
 | 27 | `clients/27_generate_one.md` | 株式会社ジェネレートワン | folder | `11u1wBqEzpJkTg20YHRllynQF347MR-1o` | ID参照 |
 | 28 | `clients/28_inet_technologies.md` | 株式会社アイネットテクノロジーズ | file | `1kSRsr-Ttd5gqHqSxjzgtzhU30ae1TQQw` | ID参照 |
 | 29 | `clients/29_fukubijin.md` | 福美人株式会社 | folder | `1XRNN_vZFkMQ6q7w9DQ9ljKSTkVBPjHGN` | https://drive.google.com/drive/folders/1XRNN_vZFkMQ6q7w9DQ9ljKSTkVBPjHGN |
+| 30 | `clients/30_sendo.md` | 株式会社センド | folder | `1FXOnSp-UnIiVCSNEylxGa4vhNQ1Lq41H` | https://drive.google.com/drive/folders/1FXOnSp-UnIiVCSNEylxGa4vhNQ1Lq41H |
