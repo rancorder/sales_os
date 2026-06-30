@@ -382,26 +382,28 @@ B. 湘南ベースレインボーOS
 
 ## 6. 資料原本 / Drive参照
 
-### 6.1 代表Drive
+### 6.1 代表Drive参照
 
-| 種別 | ID | URL |
-|---|---|---|
-| folder | `1FXOnSp-UnIiVCSNEylxGa4vhNQ1Lq41H` | https://drive.google.com/drive/folders/1FXOnSp-UnIiVCSNEylxGa4vhNQ1Lq41H |
+| 項目 | 内容 |
+|---|---|
+| Drive参照種別 | folder |
+| Drive参照ID | `1FXOnSp-UnIiVCSNEylxGa4vhNQ1Lq41H` |
+| Drive参照URL | https://drive.google.com/drive/folders/1FXOnSp-UnIiVCSNEylxGa4vhNQ1Lq41H |
 
-### 6.2 主要資料ID一覧
+### 6.2 追加資料ID一覧
 
-| 資料 | 種別 | ID | 用途 |
-|---|---|---|---|
-| 株式会社センド様_MTG資料 | Google Docs | `1Egl-O4PCyF1GSXMlkzhlaaVpHgpt_aYXqG7PJtTk3Fw` | 初期MTG/戦略/体制確認 |
-| 株式会社センド_SU定例資料 | Google Docs | `1J4QGV60ONDULojobRUOOPpmd3-XGNXRThNHYhI3Uel4` | 定例報告/数値確認 |
-| 株式会社センド様_コックピット（SU） | Google Sheets | `10536rDBnHST_OWzrP2n4CGUBG6EwPDFumB22_t6HW1A` | プロジェクトワークフロー |
-| セールスユニット_インタビュー項目 | docx | `1LzmCYf6BIa-vHFwd4dFlNgVY_KVi-iuC` | 取材項目/未入力確認 |
-| クラプロ側の共有資料 | folder | `1EU4IQPH9YoKzM5S3NhFQ3diSuObfQCM7` | 制作資料群 |
-| 電子基板材料 営業資料 | pptx | `1NJh0fyzxZyesHYMLirpwUhcGTJ8ZBFc7` | 商材Aの営業資料 |
-| 湘南ベースレインボー 紹介動画ラフ | xlsx | `1BnktO9Sa5PR94BfJ9gJKHaSHtICb5LNf` | 商材Bの訴求整理 |
-| 料金表 | xlsx | `1KHzmcPmtJ4PVyRYauHx3S10AITpGPEgX` | 湘南ベースレインボー料金確認 |
-| アポ取得先文字起こし | folder | `17Hur65qRNfsy0QI2d_lkgaIkI2FEIM_j` | ICT/教育系架電ログ確認 |
-| SCデータ | folder | `19gzaa1fY5pb-5VH7MNOVTA2Wffyqsp-r` | SCデータ原本 |
+| 種別 | 資料名 | Drive参照種別 | Drive ID / URL | 用途 | 更新日 | 状態 |
+|---|---|---|---|---|---|---|
+| MTG資料 | 株式会社センド様_MTG資料 | file | `1Egl-O4PCyF1GSXMlkzhlaaVpHgpt_aYXqG7PJtTk3Fw` | 初期MTG/戦略/体制確認 | 2025-06-23 | 確認済 |
+| SU定例 | 株式会社センド_SU定例資料 | file | `1J4QGV60ONDULojobRUOOPpmd3-XGNXRThNHYhI3Uel4` | 定例報告/数値確認 | 2026-05-09 | 確認済 |
+| コックピット | 株式会社センド様_コックピット（SU） | file | `10536rDBnHST_OWzrP2n4CGUBG6EwPDFumB22_t6HW1A` | プロジェクトワークフロー | 2025-06-05 | 確認済 |
+| 取材項目 | セールスユニット_インタビュー項目 | file | `1LzmCYf6BIa-vHFwd4dFlNgVY_KVi-iuC` | 取材項目/未入力確認 | 2025-04-09 | 確認済 |
+| 共有資料 | クラプロ側の共有資料 | folder | `1EU4IQPH9YoKzM5S3NhFQ3diSuObfQCM7` | 制作資料群 | 2025-09-24 | 確認済 |
+| 営業資料 | 電子基板材料 営業資料 | file | `1NJh0fyzxZyesHYMLirpwUhcGTJ8ZBFc7` | 商材Aの営業資料 | 2025-09-24 | 確認済 |
+| 訴求整理 | 湘南ベースレインボー 紹介動画ラフ | file | `1BnktO9Sa5PR94BfJ9gJKHaSHtICb5LNf` | 商材Bの訴求整理 | 2025-09-24 | 確認済 |
+| 料金表 | 湘南ベースレインボー 料金表 | file | `1KHzmcPmtJ4PVyRYauHx3S10AITpGPEgX` | 料金確認 | 2025-09-24 | 確認済 |
+| 架電ログ | アポ取得先文字起こし | folder | `17Hur65qRNfsy0QI2d_lkgaIkI2FEIM_j` | ICT/教育系架電ログ確認 | 2025-10-08 | 確認済 |
+| SCデータ | SCデータ | folder | `19gzaa1fY5pb-5VH7MNOVTA2Wffyqsp-r` | SCデータ原本 | 2025-02-25 | 未精査 |
 
 ---
 
