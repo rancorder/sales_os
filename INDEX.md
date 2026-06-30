@@ -25,7 +25,7 @@
 | 17 | [株式会社SM TECH](https://drive.google.com/file/d/12oaxt5YTvEdylTYpx3CklT64tTJy3Sk0/view) | 機械部品加工(海外3拠点)／ECO SILITILE | 商談（Bヨミ5件） |
 | 18 | [ワールドシステムエンジニアリング(WSE)](https://drive.google.com/file/d/1KPhRO5dWQBp3QWcVUlDzAVOF3xw-Irgf/view) | 溶接治具・溶接ライン設計の外注補完 | 一次商談 |
 | 19 | [Reegle株式会社](https://drive.google.com/file/d/1tHXnyxomP7hG9fZde5dnx0lcthFF-FVR/view) | 木製ユニット「ジラフ」(平時×災害) | 架電（受付突破課題） |
-| 20 | [株式会社フードサプライズ](https://drive.google.com/file/d/1Zcq0PR1ATTCCoJ8bfn1T4bMc8-MtfIlB/view) | 果物ギフトサブスク | 業種別ターゲティング |
+| 20 | [株式会社フードサプライズ](clients/20_food_surprise.md) | 果物ギフトサブスク | 老人ホーム・介護施設を最優先検証へ昇格。保育園/幼稚園は継続、保険代理店/イベント会社を次候補化 |
 | 21 | [株式会社アスト](https://drive.google.com/file/d/15ez44jIAClPxXA3KjJ0_HlPLsqnyYpIC/view) | 自動車溶接治具の3D設計/CAE（広島） | 商談（清本鐵工Aヨミ）★分析済 |
 | 22 | [株式会社KANSHA](https://drive.google.com/file/d/1S2yfMFEeNe5vkw03O8V5gLgLJAjs2q4O/view) | 映像制作（東京・IBM/パナ実績） | 商談（見積130万Bヨミ） |
 | 23 | [合同会社日本真企画](https://drive.google.com/file/d/18Mc-KwsIcBLfo7IRyK45JFoaZKu-JO7Q/view) | 内装工事ソリューション | 架電→一次商談 |
