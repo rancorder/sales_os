@@ -34,7 +34,7 @@
 | 26 | [株式会社ビスタ](https://drive.google.com/file/d/1HHb1CXwp-Hzl6eqOQ5pCZ3hnnYNR-hcQ/view) | 無足場アンカー工法（愛媛） | 二次トスアップ |
 | 27 | [株式会社ジェネレートワン](https://drive.google.com/drive/folders/11u1wBqEzpJkTg20YHRllynQF347MR-1o) | 経済系YouTube「日本企業超会議」出演・資産化 | 商談（台本運用中） |
 | 28 | [株式会社アイネットテクノロジーズ](clients/28_inet_technologies.md) | Microsoft 365 / Office 365 セキュリティ支援・SOC・SCS評価制度文脈 | SU運用OS追加済（商談者育成・アラート対応・M365リード判定） |
-| 29 | [福美人株式会社](clients/29_fukubijin.md) | FUKUBISUI / 福美水（低刺激スキンケア・旅館アメニティ・エステ/クリニック物販・インバウンド土産） | キックオフ議事録反映済。主戦略=業態別導入理由＋サンプル送付→使用感確認→商談化 |
+| 29 | [福美人株式会社](clients/29_fukubijin.md) | FUKUBISUI / 福美水（低刺激スキンケア・旅館アメニティ・エステ/クリニック物販・インバウンド土産） | キックオフ＋Membersチャット要点反映済。主戦略=仕入れ担当者向けサンプル送付→使用感確認→導入希望アイテム/時期/数量確認 |
 
 ## 専用フォルダ化済み
 - **#4 STUDIO TRAM** → `clients/STUDIO_TRAM/`（カルテ・戦略v2・運用設計・検証・プレゼン原稿・Word版。商談スライドHTML=github.com/rancorder/STUDIOTRAM）
@@ -52,7 +52,7 @@
 - フォルダID未取得：#1 FirstFan / #2 ATデザイン / #5 共栄データセンター
 - 商材が未確認：#6 ハイウェル / #24 一光工業
 - 立ち上げ補強中：#3 ジェイシーティー（貿易商材の優先商材・ターゲット確定）
-- 戦略会議前に要確定：#29 福美人株式会社（業態別優先順位、サンプル送付条件、使用後フォロー台本、訪問判断基準）
+- 戦略会議前に要確定：#29 福美人株式会社（高級旅館実名の扱い、サンプル送付条件、使用後フォロー台本、稼働0件IDの原因）
 
 ## 運用メモ
 - 正本＝GitHub `rancorder/sales_os`。Driveは原本資料置き場。
