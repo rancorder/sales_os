@@ -23,7 +23,7 @@
 | 9 | `clients/09_laura_office.md` | ラウラオフィス | file | `1nlD7ufeSaHbMEn6x6TLi_lFowWLjVgzR` | ID参照 |
 | 10 | `clients/10_aile.md` | 株式会社AILE | file | `1X5G6Uddy76F9wWFtyCWmzraxV1zmSRAF` | ID参照 |
 | 11 | `clients/11_sozo_gijutsu_sozo.md` | 想像技術創造株式会社 | file | `1r-wc4p9g0nWU9ZvKfqVYlzRnu_Cbad-0` | ID参照 |
-| 12 | `clients/12_hito_film.md` | HITO Film株式会社 | file | `1a2MqZEKD8Cx6BWizXSM5wjkXG42pErx_` | ID参照 |
+| 12 | `clients/12_hito_film.md` | HITO Film株式会社 | folder | `1qNFOTPuuWzam8S_Qiv9iD-sDdXwpdjWb` | https://drive.google.com/drive/folders/1qNFOTPuuWzam8S_Qiv9iD-sDdXwpdjWb |
 | 13 | `clients/13_asahien.md` | 有限会社旭園 | file | `1u0NLZ1suDpslqzuDI2donXy0bAsT6II6` | ID参照 |
 | 14 | `clients/14_aim_rose.md` | 株式会社aim-rose | file | `1-3hzXOOTvzf1fZgV5-L0JqIpDL-PTKtj` | ID参照 |
 | 15 | `clients/15_sanko.md` | 参鋼株式会社 | file | `1kgb3i0uxWP-L07D4fX4dovRWOd0ehIiV` | ID参照 |
