@@ -17,7 +17,7 @@
 | 9 | [ラウラオフィス](https://drive.google.com/file/d/1nlD7ufeSaHbMEn6x6TLi_lFowWLjVgzR/view) | クリスタルシンギングボウル講座（BtoC） | 個別相談（5本確認・6/25最新分析済） |
 | 10 | [株式会社AILE](https://drive.google.com/file/d/1X5G6Uddy76F9wWFtyCWmzraxV1zmSRAF/view) | 建設DX/現場管理SaaS | 架電停滞 |
 | 11 | [想像技術創造株式会社](clients/11_sozo_gijutsu_sozo.md) | 人工設計ペプチド（神戸） | 商談OS追加済（備前=共創候補／創作メディカル=紹介・探索ハブ） |
-| 12 | [HITO Film株式会社](https://drive.google.com/file/d/1a2MqZEKD8Cx6BWizXSM5wjkXG42pErx_/view) | 映像活用支援（沖縄） | 架電（拒否率課題） |
+| 12 | [HITO Film株式会社](https://drive.google.com/drive/folders/1qNFOTPuuWzam8S_Qiv9iD-sDdXwpdjWb) | 映像活用支援（沖縄） | Driveフォルダ接続・架電拒否率課題をOS反映済 |
 | 13 | [有限会社旭園](https://drive.google.com/file/d/1u0NLZ1suDpslqzuDI2donXy0bAsT6II6/view) | ベトナム大学生インターン | アポ→ナーチャリング |
 | 14 | [株式会社aim-rose](https://drive.google.com/file/d/1-3hzXOOTvzf1fZgV5-L0JqIpDL-PTKtj/view) | オーダースーツ外注／知育プログラム | 架電→フォーム営業へ |
 | 15 | [参鋼株式会社](https://drive.google.com/file/d/1kgb3i0uxWP-L07D4fX4dovRWOd0ehIiV/view) | 薄板鉄鋼小ロット商社（西三河） | 一次商談 |
