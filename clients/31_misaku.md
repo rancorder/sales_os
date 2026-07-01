@@ -328,26 +328,29 @@ Drive上の戦略データでは、最重要決定として以下の方向性が
 
 ## 6. 資料原本 / Drive参照
 
-### 6.1 代表Drive
+### 6.1 代表Drive参照
 
-| 種別 | ID | 内容 |
-|---|---|---|
-| folder | `1KyS8mxbxKY-L-Ww2DRDpJ2PKhjKenADH` | 株式会社MISAKU Drive代表フォルダ |
+| 項目 | 内容 |
+|---|---|
+| Drive参照種別 | folder |
+| Drive参照ID | `1KyS8mxbxKY-L-Ww2DRDpJ2PKhjKenADH` |
+| Drive参照URL | https://drive.google.com/drive/folders/1KyS8mxbxKY-L-Ww2DRDpJ2PKhjKenADH |
+| 代表資料の位置付け | 株式会社MISAKU案件の原本フォルダ。戦略データ、台本、取材MTG、コックピット、定例資料フォーマット、動画格納用を含む。 |
 
-### 6.2 確認済みファイル / フォルダ
+### 6.2 追加資料ID一覧
 
-| 種別 | ID | タイトル / 内容 | OS上の扱い |
-|---|---|---|---|
-| folder | `1EYakdhDqDyA_pl9FZlwp8Ih6NYbH4Rh0` | 戦略データ | 現行戦略の主情報源 |
-| document | `1nxPn_Tsk-OS58wbCLNbC88nOAG0ZaRItAvn4z7jcYf8` | 株式会社MISAKU_members_chat_export.md | 商材変更・ターゲット・戦略判断の主情報源。全文転載禁止 |
-| document | `1SryRi0l_bF_fE-cTjMNooRyyYHUUTGNX_yjX85g1suQ` | members_attachment_links.md | 添付資料リンク一覧。原本確認用 |
-| document | `1noyyy5JWjUzbzM8ko_CmxWCxs-8p62BleE1Sgu5-MrE` | 【画面共有用】株式会社MISAKU様_SU_プレ商談台本 | 旧TSUMUGU台本。構成のみ参照。現行商材へ差し替え必要 |
-| file | `1Hm2ogCsc_wzB7i_vgz_gA5EzeaDn7ilH` | 株式会社MISAKU様_セールスユニット_インタビュー項目 | 取材項目テンプレ。回答欄の多くは未記入 |
-| file | `1vpkHYtWn_TiZXxsEKA3ZQkfJMM44w9eE` | 株式会社MISAKU様_SU_取材MTG | 取材MTG進行テンプレ / スケジュール確認用 |
-| file | `1SXUm5ZiRBYhKoma34YZusKy5cWObwP-9` | 株式会社MISAKU様_コックピット | 進行タスク確認用。日付は要最新確認 |
-| file | `1u9Ls9V6eijnpKoggmLXYilARlQO5uvmy` | 株式会社MISAKU様_SU定例資料_フォーマット | 定例報告フォーマット |
-| folder | `1I27JKTex2OB6m7hAZbi8vnWkRy_NnqOi` | 株式会社MISAKU様_動画格納用 | 商談動画 / 取材動画の格納先。原本転載禁止 |
-| spreadsheet | `1fzb8DPr0R1BXRTnXKi9FUGj06aT6QG0KVvDiSxpcKlE` | 株式会社MISAKU御中_トークスクリプト | 旧TSUMUGU系トーク。個人情報欄を含むため原本転載禁止。現行CHOTTO MATCHAには未対応 |
+| 種別 | 資料名 | Drive参照種別 | Drive ID / URL | 用途 | 更新日 | 状態 |
+|---|---|---|---|---|---|---|
+| フォルダ | 戦略データ | folder | `1EYakdhDqDyA_pl9FZlwp8Ih6NYbH4Rh0` | 現行戦略の主情報源 | 2026-07-01確認 | 確認済み |
+| ドキュメント | 株式会社MISAKU_members_chat_export.md | document | `1nxPn_Tsk-OS58wbCLNbC88nOAG0ZaRItAvn4z7jcYf8` | 商材変更・ターゲット・戦略判断の主情報源。全文転載禁止 | 2026-07-01確認 | 確認済み |
+| ドキュメント | members_attachment_links.md | document | `1SryRi0l_bF_fE-cTjMNooRyyYHUUTGNX_yjX85g1suQ` | 添付資料リンク一覧。原本確認用 | 2026-07-01確認 | 確認済み |
+| ドキュメント | 【画面共有用】株式会社MISAKU様_SU_プレ商談台本 | document | `1noyyy5JWjUzbzM8ko_CmxWCxs-8p62BleE1Sgu5-MrE` | 旧TSUMUGU台本。構成のみ参照。現行商材へ差し替え必要 | 2026-07-01確認 | 要改修 |
+| ファイル | 株式会社MISAKU様_セールスユニット_インタビュー項目 | file | `1Hm2ogCsc_wzB7i_vgz_gA5EzeaDn7ilH` | 取材項目テンプレ。回答欄の多くは未記入 | 2026-07-01確認 | 確認済み |
+| ファイル | 株式会社MISAKU様_SU_取材MTG | file | `1vpkHYtWn_TiZXxsEKA3ZQkfJMM44w9eE` | 取材MTG進行テンプレ / スケジュール確認用 | 2026-07-01確認 | 確認済み |
+| ファイル | 株式会社MISAKU様_コックピット | file | `1SXUm5ZiRBYhKoma34YZusKy5cWObwP-9` | 進行タスク確認用。日付は要最新確認 | 2026-07-01確認 | 確認済み |
+| ファイル | 株式会社MISAKU様_SU定例資料_フォーマット | file | `1u9Ls9V6eijnpKoggmLXYilARlQO5uvmy` | 定例報告フォーマット | 2026-07-01確認 | 確認済み |
+| フォルダ | 株式会社MISAKU様_動画格納用 | folder | `1I27JKTex2OB6m7hAZbi8vnWkRy_NnqOi` | 商談動画 / 取材動画の格納先。原本転載禁止 | 2026-07-01確認 | 確認済み |
+| スプレッドシート | 株式会社MISAKU御中_トークスクリプト | spreadsheet | `1fzb8DPr0R1BXRTnXKi9FUGj06aT6QG0KVvDiSxpcKlE` | 旧TSUMUGU系トーク。個人情報欄を含むため原本転載禁止。現行CHOTTO MATCHAには未対応 | 2026-07-01確認 | 要改修 |
 
 ---
 
