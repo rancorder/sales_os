@@ -68,6 +68,7 @@ EXPECTED = {
     "clients/28_inet_technologies.md": ("株式会社アイネットテクノロジーズ", "file", "1kSRsr-Ttd5gqHqSxjzgtzhU30ae1TQQw"),
     "clients/29_fukubijin.md": ("福美人株式会社", "folder", "1XRNN_vZFkMQ6q7w9DQ9ljKSTkVBPjHGN"),
     "clients/30_sendo.md": ("株式会社センド", "folder", "1FXOnSp-UnIiVCSNEylxGa4vhNQ1Lq41H"),
+    "clients/31_misaku.md": ("株式会社MISAKU", "folder", "1KyS8mxbxKY-L-Ww2DRDpJ2PKhjKenADH"),
 }
 
 REQUIRED_DRIVE_TABLE_HEADER = "| 種別 | 資料名 | Drive参照種別 | Drive ID / URL | 用途 | 更新日 | 状態 |"
