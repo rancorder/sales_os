@@ -43,3 +43,4 @@
 | 29 | `clients/29_fukubijin.md` | 福美人株式会社 | folder | `1XRNN_vZFkMQ6q7w9DQ9ljKSTkVBPjHGN` | https://drive.google.com/drive/folders/1XRNN_vZFkMQ6q7w9DQ9ljKSTkVBPjHGN |
 | 30 | `clients/30_sendo.md` | 株式会社センド | folder | `1FXOnSp-UnIiVCSNEylxGa4vhNQ1Lq41H` | https://drive.google.com/drive/folders/1FXOnSp-UnIiVCSNEylxGa4vhNQ1Lq41H |
 | 31 | `clients/31_misaku.md` | 株式会社MISAKU | folder | `1KyS8mxbxKY-L-Ww2DRDpJ2PKhjKenADH` | https://drive.google.com/drive/folders/1KyS8mxbxKY-L-Ww2DRDpJ2PKhjKenADH |
+| 32 | `clients/32_keylab.md` | 株式会社キーラボ | folder | `1i9ZaT-g7yuPTivVf3G9VW9JYtogBrtRo` | https://drive.google.com/drive/folders/1i9ZaT-g7yuPTivVf3G9VW9JYtogBrtRo |
