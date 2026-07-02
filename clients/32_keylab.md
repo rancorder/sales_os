@@ -243,40 +243,38 @@ SPの仕事は、アポを取ることだけではない。
 
 ## 6. 資料原本 / Drive参照
 
-### 6.1 代表Drive
+### 6.1 代表Drive参照
 
-| 種別 | ID | 内容 |
-|---|---|---|
-| folder | `1i9ZaT-g7yuPTivVf3G9VW9JYtogBrtRo` | 株式会社キーラボ Drive代表フォルダ |
-| folder | `1wO590xbYPxYW_igH_3_0YBTyvhcVHSes` | 戦略データ |
+| 項目 | 内容 |
+|---|---|
+| Drive参照種別 | folder |
+| Drive参照ID | `1i9ZaT-g7yuPTivVf3G9VW9JYtogBrtRo` |
+| Drive参照URL | https://drive.google.com/drive/folders/1i9ZaT-g7yuPTivVf3G9VW9JYtogBrtRo |
+| 備考 | 株式会社キーラボ Drive代表フォルダ |
 
-### 6.2 主要資料
+### 6.2 追加資料ID一覧
 
-| 種別 | ID | タイトル / 用途 |
-|---|---|---|
-| doc | `1aOomDpZcw84INsB1QIUyovPb9-qfBBldZVseZPTy-hE` | 株式会社キーラボ様_SU定例資料_フォーマット |
-| doc | `1Vk1w37F24aiW6rAliQcn0ZxtGXcm-dBjoS0iX5K6oI0` | 架電台本作成内容 |
-| doc | `1K6Tu5khWSJkE7SbXcJRCRV8Gt8GQ9COSAwQCwMf6Sro` | 【社内】株式会社キーラボ_members_chat_export.md |
-| doc | `1isZaBntimzRtGz670ZwH5dOlTmJMX-gJvuZOkukoKM0` | 【SP+SU】株式会社キーラボ_members_chat_export.md |
-| sheet | `1KT9e_e3IQCc1yct59gbpOjpe_Vf0x9hx11KeQEg2nAs` | 株式会社キーラボ様_トークスクリプト |
-| doc | `1ZHxWH_XODeoLRtp03G-3KGI7iK8mizLRcYcDxGKMONs` | 株式会社キーラボ様_SU_OS台本（現時点で本文空） |
-| slides | `1owDvsOUBnTm8en0vghKzBbXn3Zu7hzSAl5u5Vlevf5k` | 260225_株式会社キーラボ様_営業資料 |
-| pdf | `1WNB-1CgZm1B1Gaaw7YuNyDWNVRtqczQk` | 260225_株式会社キーラボ様_営業資料.pdf |
-| slides | `1y2pW166DF210BRXIJ4Q1ATirBqYf9NufjqiNnlpNogA` | 260210_株式会社キーラボ様（LINE連携型ポイントサービス直接訴求台本）_営業資料 |
-| slides | `1PbjnV1RLgoP79HCudrNR8rngYM7trdBmBTRujyKk4wo` | 260210_株式会社キーラボ様（NFC・LINE顧客管理）_営業資料 |
-| doc | `18_jfKqfM1kGudBIEviJDYMJZt2VfOttxLMWtrlwK5mY` | 株式会社キーラボ様_SU_取材MTG |
-
-### 6.3 フォルダ / データ系
-
-| 種別 | ID | 内容 |
-|---|---|---|
-| folder | `1BqTcNvvJTuwHdlVe2sYqhV8akDVRGXsi` | 商談動画 |
-| folder | `1Q-k5NloaVtLpg-bjs4Da4i7ETU_GQOyN` | 定例MTG動画 |
-| folder | `1G9SeU4cffhQIePJda29ugWBfeawTxCID` | SCデータ |
-| folder | `1p-OraIHrlNL6hEHWh4Ae-Fuy6swUh_Wg` | 共有リスト |
-| folder | `1a8Letm5DvCuepjKJBsg6anxointmnmbh` | 共有資料 |
-| sheet | `1PZtVpUTUdi8YSd79_1MCxxUOKVIgsPutEPiQf_ImAQE` | 不通先リスト_202604152235 |
-| sheet | `1jPFB-qKWSEvGxzU5kD-OHhlApECKNW9cGdbZebfubCo` | 株式会社キーラボ様_コックピット |
+| 種別 | 資料名 | Drive参照種別 | Drive ID / URL | 用途 | 更新日 | 状態 |
+|---|---|---|---|---|---|---|
+| folder | 戦略データ | folder | `1wO590xbYPxYW_igH_3_0YBTyvhcVHSes` | 台本作成依頼、Membersチャット、直近運用情報 | 2026-07-02 | 確認済 |
+| doc | 株式会社キーラボ様_SU定例資料_フォーマット | file | `1aOomDpZcw84INsB1QIUyovPb9-qfBBldZVseZPTy-hE` | 定例報告フォーマット、契約/稼働状況、KPI記載枠 | 2026-06-28 | 確認済 |
+| doc | 架電台本作成内容 | file | `1Vk1w37F24aiW6rAliQcn0ZxtGXcm-dBjoS0iX5K6oI0` | 資料請求先約40件への架電依頼、Zoom予約導線 | 2026-07-02 | 確認済 |
+| doc | 【社内】株式会社キーラボ_members_chat_export.md | file | `1K6Tu5khWSJkE7SbXcJRCRV8Gt8GQ9COSAwQCwMf6Sro` | 社内チャット要点、台本期限、決定事項確認 | 2026-07-02 | 確認済 |
+| doc | 【SP+SU】株式会社キーラボ_members_chat_export.md | file | `1isZaBntimzRtGz670ZwH5dOlTmJMX-gJvuZOkukoKM0` | SP+SUチャット、決定事項、Zoom予約フォーム導線 | 2026-07-02 | 確認済 |
+| sheet | 株式会社キーラボ様_トークスクリプト | file | `1KT9e_e3IQCc1yct59gbpOjpe_Vf0x9hx11KeQEg2nAs` | 既存トークスクリプト、汎用着地/切り返し | 2026-01-13 | 確認済 |
+| doc | 株式会社キーラボ様_SU_OS台本 | file | `1ZHxWH_XODeoLRtp03G-3KGI7iK8mizLRcYcDxGKMONs` | SU台本枠。現時点で本文空 | 2026-01-13 | 本文空 |
+| slides | 260225_株式会社キーラボ様_営業資料 | file | `1owDvsOUBnTm8en0vghKzBbXn3Zu7hzSAl5u5Vlevf5k` | サブスク移行提案、LINE連携前提の説明資料 | 2026-02-26 | 確認済 |
+| pdf | 260225_株式会社キーラボ様_営業資料.pdf | file | `1WNB-1CgZm1B1Gaaw7YuNyDWNVRtqczQk` | サブスク移行提案PDF原本 | 2026-02-25 | 参照のみ |
+| slides | 260210_株式会社キーラボ様（LINE連携型ポイントサービス直接訴求台本）_営業資料 | file | `1y2pW166DF210BRXIJ4Q1ATirBqYf9NufjqiNnlpNogA` | LINE連携型ポイントサービス営業資料 | 2026-02-10 | 確認済 |
+| slides | 260210_株式会社キーラボ様（NFC・LINE顧客管理）_営業資料 | file | `1PbjnV1RLgoP79HCudrNR8rngYM7trdBmBTRujyKk4wo` | NFC/LINE顧客管理営業資料 | 2026-02-10 | 確認済 |
+| doc | 株式会社キーラボ様_SU_取材MTG | file | `18_jfKqfM1kGudBIEviJDYMJZt2VfOttxLMWtrlwK5mY` | 取材MTG枠、ヒアリング項目 | 2026-01-13 | 確認済 |
+| folder | 商談動画 | folder | `1BqTcNvvJTuwHdlVe2sYqhV8akDVRGXsi` | 商談動画原本 | 2026-04-23 | 原本参照のみ |
+| folder | 定例MTG動画 | folder | `1Q-k5NloaVtLpg-bjs4Da4i7ETU_GQOyN` | 定例MTG動画原本 | 2026-04-10 | 原本参照のみ |
+| folder | SCデータ | folder | `1G9SeU4cffhQIePJda29ugWBfeawTxCID` | セールスクラウドデータ原本 | 2026-03-14 | 原本参照のみ |
+| folder | 共有リスト | folder | `1p-OraIHrlNL6hEHWh4Ae-Fuy6swUh_Wg` | 共有リスト原本 | 2026-03-03 | 原本参照のみ |
+| folder | 共有資料 | folder | `1a8Letm5DvCuepjKJBsg6anxointmnmbh` | 共有資料原本 | 2026-02-25 | 原本参照のみ |
+| sheet | 不通先リスト_202604152235 | file | `1PZtVpUTUdi8YSd79_1MCxxUOKVIgsPutEPiQf_ImAQE` | 不通先リスト、架電結果データ | 2026-04-23 | 原本参照のみ |
+| sheet | 株式会社キーラボ様_コックピット | file | `1jPFB-qKWSEvGxzU5kD-OHhlApECKNW9cGdbZebfubCo` | コックピット、進行管理 | 2026-03-04 | 原本参照のみ |
 
 ---
 
@@ -307,4 +305,8 @@ SPの仕事は、アポを取ることだけではない。
 2026-07-02：新規営業OS作成。
 直近は「新規開拓」より「資料請求済みユーザーへの説明予約化」を優先。
 POINTQUIC2.0説明会誘導では、SPが設定/操作/連携/料金/運用者の関心タグを残す設計にする。
+
+2026-07-02：validator対応。
+`tools/validate_sales_os.py` のEXPECTEDへ #32 キーラボを追加。
+6章のDrive参照表を営業OS標準ヘッダーへ修正。
 ```
