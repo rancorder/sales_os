@@ -1,4 +1,4 @@
-# INDEX｜営業OS 案件カルテ一覧（全31社）
+# INDEX｜営業OS 案件カルテ一覧（全32社）
 
 > アイドマHD経由セールスユニット案件。社名クリックで各カルテに飛べる。
 > 運用：GitHubを正本として更新する。Driveは原本資料置き場。チャットで得た知見は `clients/`・`patterns/`・`docs/` に蒸留してcommitする。
@@ -37,6 +37,7 @@
 | 29 | [福美人株式会社](clients/29_fukubijin.md) | FUKUBISUI / 福美水（低刺激スキンケア・旅館アメニティ・エステ/クリニック物販・インバウンド土産） | キックオフ＋Membersチャット要点反映済。主戦略=仕入れ担当者向けサンプル送付→使用感確認→導入希望アイテム/時期/数量確認 |
 | 30 | [株式会社センド](clients/30_sendo.md) | 電子基板材料／半導体パッケージ基板／湘南ベースレインボー | 商材分離OS追加済。電子基板材料とICT/福利厚生型学習支援を混同せず運用 |
 | 31 | [株式会社MISAKU](clients/31_misaku.md) | CHOTTO MATCHA（出張抹茶ラテ・ホテル/ブランド向け体験型コラボ） | 営業OS追加済。旧TSUMUGU台本と現行CHOTTO MATCHA戦略を分離し、ホテル価格帯別ABテストと台本再作成を最優先化 |
+| 32 | [株式会社キーラボ](clients/32_keylab.md) | POINTQUIC / QUIC-on-LINE@（LINE連携型ポイント・会員証・店舗CRM） | 営業OS追加済。資料請求先約40件へのPOINTQUIC2.0説明予約化とサブスク移行導線を分離して運用 |
 
 ## 専用フォルダ化済み
 - **#4 STUDIO TRAM** → `clients/STUDIO_TRAM/`（カルテ・戦略v2・運用設計・検証・プレゼン原稿・Word版。商談スライドHTML=github.com/rancorder/STUDIOTRAM）
