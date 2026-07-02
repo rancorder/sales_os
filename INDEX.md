@@ -6,7 +6,7 @@
 
 | # | クライアント | 商材 | ステータス |
 |---|---|---|---|
-| 1 | [FirstFan](https://drive.google.com/file/d/1F80wHcgB7cg7fbD2S_N1dQHl12CxzkQ9/view) | AGERUケア（組織状態可視化） | 小林フィルター＋営業支援全体OS追加済 |
+| 1 | [FirstFan](clients/01_firstfan.md) | AGERUケア（組織状態可視化） | 2026-07-02小林さんMTG反映。モニター募集型の一次相談・二次相談シナリオ骨組み追加済 |
 | 2 | [株式会社ATデザイン](https://drive.google.com/file/d/1rgFiTnhxnH_6U3YWk0W8dOj1JzzT5pUd/view) | Web制作 | 枠（要補強） |
 | 3 | [有限会社ジェイシーティー](https://drive.google.com/drive/folders/1yY1PL_ae-Oy7P3Vt5NfeQX7FR6oLkCcI) | 中国仕入れ・貿易／商材テストマーケ | Drive接続済み・立ち上げ情報確認中 |
 | 4 | [STUDIO TRAM合同会社](https://drive.google.com/drive/folders/1JmnQokba1zp7RHBpilgwdBjuFI93bbaq) | 映像＋音楽制作（伝わる体験設計） | **立ち上げ完了・7月稼働準備** |
